@@ -1,0 +1,6 @@
+Link,Scenario No,Start Day No,End Day No,Start Time in Min,End Time in min,Bus Headway (min),Parking Lot Spatial Capacity,Parking Lot Assumed Departure Rate Per Hour
+[1;6],1,0,100,0,1440,20,40,
+[6;7],1,0,100,0,1440,20,40,
+[7;13],1,0,100,0,1440,20,40,
+[8;7],1,0,100,0,1440,,1000,200
+[9;7],1,0,100,0,1440,,1200,400

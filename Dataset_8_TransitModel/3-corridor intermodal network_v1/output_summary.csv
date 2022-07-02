@@ -1,0 +1,89 @@
+DTALite:
+A Fast Open Source DTA Engine
+Software Version =,1.1.0
+Release Date=,Apr 10 2015
+Simulation Date =,year: 2015,month:04,day:10,hour:18,min: 7
+----------------------test1----------------------
+Signal Control Representation =,Continuous Flow with Link Capacity Constraint
+Traffic Flow Model =,Newell's Cumulative Flow Count Model
+Assignment method=,Fixed Switching Rate
+Percentage of considering to switch routes=,15
+Travel time difference for route switching=,1
+Relative Travel Time Indifference Band (%) for route switching=,15
+ 
+
+Default Assignment Intervals==,24
+No.1=,14:00-> 14:15
+No.2=,14:15-> 14:30
+No.3=,14:30-> 14:45
+No.4=,14:45-> 15:00
+No.5=,15:00-> 15:15
+No.6=,15:15-> 15:30
+No.7=,15:30-> 15:45
+No.8=,15:45-> 16:00
+No.9=,16:00-> 16:15
+No.10=,16:15-> 16:30
+No.11=,16:30-> 16:45
+No.12=,16:45-> 17:00
+No.13=,17:00-> 17:15
+No.14=,17:15-> 17:30
+No.15=,17:30-> 17:45
+No.16=,17:45-> 18:00
+No.17=,18:00-> 18:15
+No.18=,18:15-> 18:30
+No.19=,18:30-> 18:45
+No.20=,18:45-> 19:00
+No.21=,19:00-> 19:15
+No.22=,19:15-> 19:30
+No.23=,19:30-> 19:45
+No.24=,19:45-> 20:00
+
+# of Nodes=,13
+# of Link Types=,14
+# of Links=,16
+# of Prohibited Movements=,0
+# of Pretimed Signals=,0
+# of Actuated Signals=,0
+# of Zones=,2
+# of Activity Locations=,2
+# of Vehicle Types=,10
+# of Demand Types=,3
+Demand Load Mode=,demand meta databaseReading demand file,input_demand_1.csv,cumulative # of agents=,100,
+Reading demand file,input_demand_2.csv,cumulative # of agents=,200,
+Reading demand file,input_demand_3.csv,cumulative # of agents=,300,
+
+
+Demand multiplier in setting file=,1
+# of Vehicles to be simulated=,300
+# of Intra-zone Vehicles (not be simulated)=,0
+Starting Time of Demand Loading (min)=,840
+Ending Time of Demand Loading (min)=,900
+Output Emission data=,YES
+Output second by second speed data=,NO
+Vehicle ID with second by second speed data=,0
+
+--Link Type Statistics--
+link_type,link_type_name,link_type_code,number_of_links,avg_lane_capacity,avg_number_of_lanes,avg_speed_limit,avg_link_length,avg_K_jam,total_link_length,
+1,Freeway,f,14,1900,1,61.0714,34.7663,180,486.729,
+2,Highway,h,0,0,0,0,0,0,0,
+3,Principal arterial,a,0,0,0,0,0,0,0,
+4,Major arterial,a,0,0,0,0,0,0,0,
+5,Minor arterial,a,0,0,0,0,0,0,0,
+6,Collector,a,0,0,0,0,0,0,0,
+7,Local,a,0,0,0,0,0,0,0,
+8,Frontage road,a,0,0,0,0,0,0,0,
+9,Ramp,r,0,0,0,0,0,0,0,
+10,Zonal connector,c,0,0,0,0,0,0,0,
+11,Park and Ride Station,p,2,1900,1,65,20.3695,180,40.7391,
+12,BRT,b,0,0,0,0,0,0,0,
+100,Transit link,t,0,0,0,0,0,0,0,
+200,Walking link,a,0,0,0,0,0,0,0,
+
+# of incident records=0
+# of demand type code based toll records=24
+# of link-based toll records=0
+# of work zone records=0
+# of ramp meter records=0
+# of VMS records=0
+# of movement records=0
+Assignment method=,Zone-based routing

@@ -1,0 +1,10 @@
+Unit of output:
+,,distance=,miles
+,,speed=,mph
+,,energy=,1000 joule
+,,CO2,NOX,CO,HC,PM,PM2.5=,g
+ , , , , , ,, , , , , , , , , , , , , ,
+scenario_no,scenario_name,scenario_data,number_of_iterations,day_no,traffic_flow_model,#_of_vehicles_,percentage_,avg_distance_,avg_travel_time(min)_,avg_speed_,avg_toll_cost_,avg_energy_,avg_CO2_,avg_NOX_,avg_CO_,avg_HC_,avg_PM_,avg_PM2_5_,avg_MilesPerGallon_,
+ , , , ,1, ,5030,69.8611,11.4456,11.6798,58.797,2.66247e-43,0,0,0,0,0,0,0,0,
+1,test1, ,1,,1,5030,69.8611,11.4456,11.6798,58.797,2.62218e+16,0,0,0,0,0,0,0,0,
+CPU Clock: 00:00:04 --

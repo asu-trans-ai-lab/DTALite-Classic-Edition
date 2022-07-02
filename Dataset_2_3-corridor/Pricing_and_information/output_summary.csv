@@ -1,0 +1,125 @@
+DTALite:
+A Fast Open Source DTA Engine
+Software Version =,1.1.0
+Release Date=,Jun 25 2016
+Simulation Date =,year: 2017,month:03,day:9,hour:19,min:33
+----------------------test1----------------------
+Signal Control Representation =,Continuous Flow with Link Capacity Constraint
+Traffic Flow Model =,Point Queue Model
+Assignment method=,MSA
+ 
+
+
+# of Nodes=,41
+# of Link Types=,12
+# of Links=,56
+# of Prohibited Movements=,0
+# of Pretimed Signals=,3
+# of Actuated Signals=,0
+# of Zones=,6
+# of Activity Locations=,6
+# of Vehicle Types=,5
+# of Demand Types=,4
+# of Sensor Records=,0
+Demand Load Mode=,demand meta databaseReading demand file,input_demand.csv,cumulative # of agents=,7200,
+
+
+Demand multiplier in input_scenario_settings.csv file=,1
+# of Vehicles to be simulated=,7200
+# of Intra-zone Vehicles (not be simulated)=,0
+Starting Time of Demand Loading (min)=,420
+Ending Time of Demand Loading (min)=,540
+Output Emission data=,NO
+
+--Link Type Statistics--
+link_type,link_type_name,link_type_code,number_of_links,avg_lane_capacity,avg_number_of_lanes,avg_speed_limit,avg_link_length,avg_K_jam,total_link_length,
+1,Freeway,f,29,1806.9,3.03448,60.1724,0.980906,180,28.4463,
+2,Highway,h,0,0,0,0,0,0,0,
+3,Principal arterial,a,0,0,0,0,0,0,0,
+4,Major arterial,a,26,1700,2.73077,56.9231,1.87921,180,48.8595,
+5,Minor arterial,a,1,700,2,30,2,180,2,
+6,Collector,a,0,0,0,0,0,0,0,
+7,Local,a,0,0,0,0,0,0,0,
+8,Frontage road,a,0,0,0,0,0,0,0,
+9,Ramp,r,0,0,0,0,0,0,0,
+10,Zonal connector,c,0,0,0,0,0,0,0,
+100,Transit link,t,0,0,0,0,0,0,0,
+200,Walking link,w,0,0,0,0,0,0,0,
+# of demand type code based toll records=0
+# of link-based toll records=0
+# of work zone records=1
+# of VMS records=1
+Assignment method=,Zone-based routing
+Iteration #,CPU Running Time,Per Iteration CPU Running Time,# of agents,Avg Travel Time (min),Avg Waiting Time at Origin (min),Avg Trip Time Index=(Mean TT/Free-flow TT),Avg Distance,Avg Speed,Avg CO (g),% considering to switch,% switched,% completing trips,network clearance time (in min),Avg User Equilibirum (UE) gap (min),Relative UE gap (%),ODME: number of data points,ODME: Absolute link count error,ODME: % link count error,ODME: slope =observed/estimated link count,ODME: r_squared link count,travel_time_ 7:00,travel_time_ 7:15,travel_time_ 7:30,travel_time_ 7:45,travel_time_ 8:00,travel_time_ 8:15,travel_time_ 8:30,travel_time_ 8:45,Avg UE gap_ 7:00,Avg UE gap_ 7:15,Avg UE gap_ 7:30,Avg UE gap_ 7:45,Avg UE gap_ 8:00,Avg UE gap_ 8:15,Avg UE gap_ 8:30,Avg UE gap_ 8:45,Relative UE gap_ 7:00,Relative UE gap_ 7:15,Relative UE gap_ 7:30,Relative UE gap_ 7:45,Relative UE gap_ 8:00,Relative UE gap_ 8:15,Relative UE gap_ 8:30,Relative UE gap_ 8:45,
+1,00:00:03,00:00:03,7200,16.2485,0,1.1823,11.6769,43.1187,15752,100,100,100,840, , , , , , , ,14.607,16.3209,18.4127,20.4991,22.6904,14.4856,11.4867,11.4867, , , , , , , , , , , , , , , , ,
+Output file =,output_ODTDMOE
+
+
+--Time Dependent Network MOE--,60 min interval
+time_stamp_in_min,time_clock,cumulative_in_flow_count,cumulative_out_flow_count,number_vehicles_in_network,number_vehicles_entering_network,total_vehicle_mile_traveled,avg_trip_time (departure_time_based),avg_trip_time_index = trip time/FFTT,avg_distance,avg_speed,
+420, 7:00,60,0,60,60,42313.6,17.4058,1.1803,11.7538,40.5168,
+480, 8:00,3660,2568,1092,3600,41765.6,14.9915,1.18471,11.6016,46.4326,
+540, 9:00,7200,6571,629,3540,0,0,0,0,0,
+
+--Time Dependent Network MOE--,30 min interval
+time_stamp_in_min,time_clock,cumulative_in_flow_count,cumulative_out_flow_count,number_vehicles_in_network,number_vehicles_entering_network,total_vehicle_mile_traveled,avg_trip_time (departure_time_based),avg_trip_time_index = trip time/FFTT,avg_distance,avg_speed,
+420, 7:00,60,0,60,60,20812.3,15.4078,1.09346,11.5624,45.0255,
+450, 7:30,1860,917,943,1800,21501.3,19.4038,1.25974,11.9452,36.9366,
+480, 8:00,3660,2568,1092,1800,21162.3,18.5401,1.33417,11.7568,38.0479,
+510, 8:30,5460,4197,1263,1800,20603.3,11.4429,1.00271,11.4463,60.0177,
+540, 9:00,7200,6571,629,1740,0,0,0,0,0,
+
+--Time Dependent Network MOE--,15 min interval
+time_stamp_in_min,time_clock,cumulative_in_flow_count,cumulative_out_flow_count,number_vehicles_in_network,number_vehicles_entering_network,total_vehicle_mile_traveled,avg_trip_time (departure_time_based),avg_trip_time_index = trip time/FFTT,avg_distance,avg_speed,
+420, 7:00,60,0,60,60,10335.7,14.5499,1.11992,11.4841,47.3572,
+435, 7:15,960,194,766,900,10476.7,16.2657,1.07083,11.6407,42.9397,
+450, 7:30,1860,917,943,900,10751.7,18.3595,1.19125,11.9463,39.0411,
+465, 7:45,2760,1766,994,900,10749.7,20.4481,1.3283,11.9441,35.047,
+480, 8:00,3660,2568,1092,900,10752.7,22.6415,1.46824,11.9474,31.6606,
+495, 8:15,4560,3369,1191,900,10409.7,14.4387,1.16705,11.5663,48.0637,
+510, 8:30,5460,4197,1263,900,10301.7,11.4419,1.00262,11.4463,60.0231,
+525, 8:45,6360,5447,913,900,10301.7,11.444,1.0028,11.4463,60.0122,
+540, 9:00,7200,6571,629,840,0,0,0,0,0,
+
+--Time Dependent Network MOE--,5 min interval
+time_stamp_in_min,time_clock,cumulative_in_flow_count,cumulative_out_flow_count,number_vehicles_in_network,number_vehicles_entering_network,total_vehicle_mile_traveled,avg_trip_time (departure_time_based),avg_trip_time_index = trip time/FFTT,avg_distance,avg_speed,
+420, 7:00,60,0,60,60,3433.89,12.4697,1.09269,11.4463,55.0757,
+425, 7:05,360,0,360,300,3478.89,14.839,1.17659,11.5963,46.8883,
+430, 7:10,660,0,660,300,3422.89,16.3411,1.09291,11.4096,41.893,
+435, 7:15,960,194,766,300,3352.89,15.6754,1.05073,11.1763,42.7789,
+440, 7:20,1260,419,841,300,3539.89,16.1761,1.06152,11.7996,43.7668,
+445, 7:25,1560,672,888,300,3583.89,16.9455,1.0995,11.9463,42.299,
+450, 7:30,1860,917,943,300,3584.89,17.6998,1.14647,11.9496,40.5075,
+455, 7:35,2160,1209,951,300,3581.89,18.2692,1.18951,11.9396,39.2123,
+460, 7:40,2460,1501,959,300,3584.89,19.1096,1.23778,11.9496,37.5193,
+465, 7:45,2760,1766,994,300,3582.89,19.7229,1.28194,11.943,36.3322,
+470, 7:50,3060,2034,1026,300,3584.89,20.5536,1.33131,11.9496,34.8832,
+475, 7:55,3360,2301,1059,300,3581.89,21.0677,1.37172,11.9396,34.0036,
+480, 8:00,3660,2568,1092,300,3585.89,22.0427,1.4253,11.953,32.5358,
+485, 8:05,3960,2834,1126,300,3582.89,22.5514,1.46578,11.943,31.7753,
+490, 8:10,4260,3103,1157,300,3583.89,23.3304,1.51379,11.9463,30.7229,
+495, 8:15,4560,3369,1191,300,3541.89,20.4361,1.4299,11.8063,34.663,
+500, 8:20,4860,3635,1225,300,3433.89,11.4395,1.00241,11.4463,60.0358,
+505, 8:25,5160,3902,1258,300,3433.89,11.4405,1.0025,11.4463,60.0304,
+510, 8:30,5460,4197,1263,300,3433.89,11.4412,1.00256,11.4463,60.0268,
+515, 8:35,5760,4613,1147,300,3433.89,11.4419,1.00262,11.4463,60.0231,
+520, 8:40,6060,5030,1030,300,3433.89,11.4426,1.00268,11.4463,60.0195,
+525, 8:45,6360,5447,913,300,3433.89,11.4433,1.00274,11.4463,60.0158,
+530, 8:50,6660,5863,797,300,3433.89,11.444,1.0028,11.4463,60.0122,
+535, 8:55,6960,6271,689,300,3433.89,11.4447,1.00287,11.4463,60.0085,
+540, 9:00,7200,6571,629,240,0,0,0,0,0,
+545, 9:05,7200,6871,329,0,0,0,0,0,0,
+550, 9:10,7200,7171,29,0,0,0,0,0,0,
+Unit of output:
+travel time=,min
+travel Cost=,dollar
+distance=,miles
+speed=,mph
+energy=,1000 joule
+CO2=,gram
+
+
+--MOE Group 6--
+ , , , , , , , , , , , , , , , , , , , ,
+,#_of_vehicles,avg_distance,avg_travel_time,avg_speed,avg_toll_cost,avg_energy_K_joule,avg_CO2_gram,avg_NOX_gram,avg_CO_gram,avg_HC_gram,avg_PM_gram,avg_PM2_5_gram,avg_energy_K_joule_per_mile,avg_CO2_gram_per_mile,avg_NOX_gram_per_mile,avg_CO_gram_per_mile,avg_HC_gram_per_mile,avg_PM_gram_per_mile,avg_PM2_5_gram_per_mile,avg_MilesPerGallon,
+,5030,11.4456,11.6798,58.797,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,

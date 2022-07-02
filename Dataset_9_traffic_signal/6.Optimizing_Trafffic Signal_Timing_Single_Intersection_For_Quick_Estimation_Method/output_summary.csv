@@ -1,0 +1,246 @@
+DTALite:
+A Fast Open Source DTA Engine
+Software Version =,1.1.0
+Release Date=,Nov 14 2013
+Simulation Date =,year: 2013,month:11,day:21,hour:17,min:25
+----------------------test1----------------------
+Traffic Flow Model =,Point Queue Model
+Assignment method=,Method of Successive Average
+ 
+# of Nodes=,5
+# of Prohibited Movements=,0
+# of Pretimed Signals=,1
+# of Actuated Signals=,0
+# of Link Types=,12
+# of Links=,8
+# of Zones=,4
+# of Activity Locations=,4
+# of Vehicle Types=,5
+# of Demand Types=,4
+# of Pricing Types=,0
+# of VOT Records=,47
+Demand Load Mode=,demand meta database
+# of incident records=0
+# of link-based toll records=0
+# of work zone records=0
+# of VMS records=0
+File Scenario_Link_Based_Toll.csv cannot be opened
+# of movement records=0
+Reading demand file,input_demand.csv,cumulative # of agents=,4800,
+
+
+Demand multiplier in setting file=,1
+# of Vehicles to be simulated=,4800
+# of Intra-zone Vehicles (not be simulated)=,0
+Starting Time of Demand Loading (min)=,0
+Ending Time of Demand Loading (min)=,60
+Output Emission data=,NO
+# of assignment iterations=,0
+# of CPU threads=,8
+Iteration #,CPU Running Time,# of agents,Avg Travel Time (min),Avg Trip Time (min),Avg Waiting Time at Origin (min),Avg Trip Time Index=(Mean TT/Free-flow TT),Avg Speed (mph),% considering to switch,% switched,% completing trips,network clearance time (in min),Avg UE gap (min),Relative UE gap (%),ODME: number of data points,ODME: Absolute link count error,ODME: % link count error,ODME: slope,ODME: r_squared,ODME: avg_simulated_to_avg_obs,travel_time_ 0:00,travel_time_ 0:15,travel_time_ 0:30,travel_time_ 0:45,Avg UE gap_ 0:00,Avg UE gap_ 0:15,Avg UE gap_ 0:30,Avg UE gap_ 0:45,Relative UE gap_ 0:00,Relative UE gap_ 0:15,Relative UE gap_ 0:30,Relative UE gap_ 0:45,
+1,00:00:00,4800,4.83606,4.86596,0.0298929,1.10285,33.1422,100,100,100,78, , , , , , , , ,4.83592,4.83742,4.84525,4.82525, , , , , , , , ,
+
+--Time Dependent Network MOE--,60 min interval
+time_stamp_in_min,time_clock,cumulative_in_flow_count,cumulative_out_flow_count,number_vehicles_in_network,total_out_flow,total_vehicle_mile_traveled,avg_trip_time (departure_time_based),avg_trip_time_index = trip time/FFTT,avg_distance,avg_speed,avg_waiting_time_at_origin,
+0, 0:00,72,20,52,4320,12181.2,5.1879,1.11392,2.81971,32.611,0.0198392,
+60, 1:00,4800,4469,331,240,0,0,0,0,0,0,
+
+--Time Dependent Network MOE--,30 min interval
+time_stamp_in_min,time_clock,cumulative_in_flow_count,cumulative_out_flow_count,number_vehicles_in_network,total_out_flow,total_vehicle_mile_traveled,avg_trip_time (departure_time_based),avg_trip_time_index = trip time/FFTT,avg_distance,avg_speed,avg_waiting_time_at_origin,
+0, 0:00,72,20,52,2160,6090.58,5.18789,1.11392,2.81971,32.611,0.0198392,
+30, 0:30,2472,2091,381,2280,6411.13,5.19449,1.11843,2.8119,32.4794,0.0365987,
+60, 1:00,4800,4469,331,120,0,0,0,0,0,0,
+
+--Time Dependent Network MOE--,15 min interval
+time_stamp_in_min,time_clock,cumulative_in_flow_count,cumulative_out_flow_count,number_vehicles_in_network,total_out_flow,total_vehicle_mile_traveled,avg_trip_time (departure_time_based),avg_trip_time_index = trip time/FFTT,avg_distance,avg_speed,avg_waiting_time_at_origin,
+0, 0:00,72,20,52,1080,3045.29,5.18789,1.11392,2.81971,32.6111,0.0198392,
+15, 0:15,1272,920,352,1260,3045.29,4.34504,1.08844,2.4169,33.3746,0.0390832,
+30, 0:30,2472,2091,381,1140,3205.57,5.19449,1.11843,2.8119,32.4794,0.0365987,
+45, 0:45,3676,3283,393,1200,3365.84,5.02269,1.08415,2.80487,33.5064,0.025193,
+60, 1:00,4800,4469,331,60,0,0,0,0,0,0,
+75, 1:15,4800,4763,37,0,0,0,0,0,0,0,
+
+--Time Dependent Network MOE--,5 min interval
+time_stamp_in_min,time_clock,cumulative_in_flow_count,cumulative_out_flow_count,number_vehicles_in_network,total_out_flow,total_vehicle_mile_traveled,avg_trip_time (departure_time_based),avg_trip_time_index = trip time/FFTT,avg_distance,avg_speed,avg_waiting_time_at_origin,
+0, 0:00,72,20,52,360,1015.1,5.18789,1.11392,2.81971,32.611,0.0198392,
+5, 0:05,468,319,149,380,1121.95,5.29812,1.08642,2.9525,33.4364,0.0296944,
+10, 0:10,872,616,256,400,1068.52,4.94175,1.12002,2.67131,32.4335,0.031752,
+15, 0:15,1272,920,352,420,1015.1,4.34504,1.08844,2.4169,33.3746,0.0390832,
+20, 0:20,1676,1288,388,420,1121.95,4.95916,1.12396,2.67131,32.3196,0.0151165,
+25, 0:25,2072,1680,392,400,1068.52,4.78443,1.08436,2.67131,33.5,0.0269258,
+30, 0:30,2472,2091,381,380,1068.52,5.19449,1.11843,2.8119,32.4794,0.0365987,
+35, 0:35,2876,2483,393,420,1068.52,4.57481,1.0887,2.5441,33.3666,0.0379083,
+40, 0:40,3276,2890,386,420,1121.95,4.95132,1.12219,2.67131,32.3708,0.0179899,
+45, 0:45,3676,3283,393,400,1121.95,5.02269,1.08415,2.80487,33.5064,0.025193,
+50, 0:50,4076,3692,384,400,1015.1,4.68574,1.11789,2.53774,32.4953,0.0332354,
+55, 0:55,4476,4086,390,400,1068.52,4.79532,1.08683,2.67131,33.4239,0.0428207,
+60, 1:00,4800,4469,331,20,0,0,0,0,0,0,
+65, 1:05,4800,4562,238,0,0,0,0,0,0,0,
+70, 1:10,4800,4673,127,0,0,0,0,0,0,0,
+75, 1:15,4800,4763,37,0,0,0,0,0,0,0,
+Unit of output:
+travel time=,min
+travel Cost=,dollar
+distance=,miles
+speed=,mph
+energy=,1000 joule
+CO2=,gram
+
+
+--MOE Group 1--
+ , , , , , , , , , , , , , , , , ,
+,#_of_vehicles,percentage,avg_distance,avg_travel_time,avg_speed,avg_toll_cost,avg_energy_K_joule,avg_CO2_gram,avg_NOX_gram,avg_CO_gram,avg_HC_gram,avg_energy_K_joule_per_mile,avg_CO2_gram_per_mile,avg_NOX_gram_per_mile,avg_CO_gram_per_mile,avg_HC_gram_per_mile,avg_MilesPerGallon,
+network,4800,100,2.6713,4.86596,32.9386,0,0,0,0,0,0,0,0,0,0,0,0,
+
+
+--MOE Group 2--
+ , , , , , , , , , , , , , , , , ,
+,#_of_vehicles,percentage,avg_distance,avg_travel_time,avg_speed,avg_toll_cost,avg_energy_K_joule,avg_CO2_gram,avg_NOX_gram,avg_CO_gram,avg_HC_gram,avg_energy_K_joule_per_mile,avg_CO2_gram_per_mile,avg_NOX_gram_per_mile,avg_CO_gram_per_mile,avg_HC_gram_per_mile,avg_MilesPerGallon,
+sov,4800,100,2.6713,4.86596,32.9386,0,0,0,0,0,0,0,0,0,0,0,0,
+hov,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+truck,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+
+
+--MOE Group 3--
+ , , , , , , , , , , , , , , , , ,
+,#_of_vehicles,percentage,avg_distance,avg_travel_time,avg_speed,avg_toll_cost,avg_energy_K_joule,avg_CO2_gram,avg_NOX_gram,avg_CO_gram,avg_HC_gram,avg_energy_K_joule_per_mile,avg_CO2_gram_per_mile,avg_NOX_gram_per_mile,avg_CO_gram_per_mile,avg_HC_gram_per_mile,avg_MilesPerGallon,
+passenger_car,3821,79.6042,2.694,4.90596,32.9477,0,0,0,0,0,0,0,0,0,0,0,0,
+passenger_truck,979,20.3958,2.58277,4.70985,32.9026,0,0,0,0,0,0,0,0,0,0,0,0,
+light_commercial-truck,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+single_unit_long-haul_truck,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+combination_long-haul_truck,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+
+
+--MOE Group 4--
+ , , , , , , , , , , , , , , , , ,
+,#_of_vehicles,percentage,avg_distance,avg_travel_time,avg_speed,avg_toll_cost,avg_energy_K_joule,avg_CO2_gram,avg_NOX_gram,avg_CO_gram,avg_HC_gram,avg_energy_K_joule_per_mile,avg_CO2_gram_per_mile,avg_NOX_gram_per_mile,avg_CO_gram_per_mile,avg_HC_gram_per_mile,avg_MilesPerGallon,
+OD1,1000,20.8333,10.095,17.5118,34.5883,0,0,0,0,0,0,0,0,0,0,0,0,
+OD2,1000,20.8333,0.189941,0.3618,11.3965,0,0,0,0,0,0,0,0,0,0,0,0,
+
+
+--MOE Group 5--
+ , , , , , , , , , , , , , , , , ,
+,#_of_vehicles,percentage,avg_distance,avg_travel_time,avg_speed,avg_toll_cost,avg_energy_K_joule,avg_CO2_gram,avg_NOX_gram,avg_CO_gram,avg_HC_gram,avg_energy_K_joule_per_mile,avg_CO2_gram_per_mile,avg_NOX_gram_per_mile,avg_CO_gram_per_mile,avg_HC_gram_per_mile,avg_MilesPerGallon,
+link_48_41_ NB freeway,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+link_39_44_NB freeway,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+link_48_41_SB freeway,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+link_39_44_ SB freeway,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+
+
+--MOE Group 6--
+ , , , , , , , , , , , , , , , , ,
+,#_of_vehicles,percentage,avg_distance,avg_travel_time,avg_speed,avg_toll_cost,avg_energy_K_joule,avg_CO2_gram,avg_NOX_gram,avg_CO_gram,avg_HC_gram,avg_energy_K_joule_per_mile,avg_CO2_gram_per_mile,avg_NOX_gram_per_mile,avg_CO_gram_per_mile,avg_HC_gram_per_mile,avg_MilesPerGallon,
+"Path1_Major freeway route, which carries a lot of the damand",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+"Path2_Major freeway route, which carries a lot of the damand",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+Path3_Major arterial route,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+Path4_Major arterial route,4800,100,2.6713,4.86596,32.9386,0,0,0,0,0,0,0,0,0,0,0,0,
+
+
+--MOE Group 7--
+Detailed Data:,output_NetworkTDMOE.csv
+time_stamp_in_min,cumulative_in_flow_count,cumulative_out_flow_count,number_vehicles_in_network,flow_in_a_min,avg_trip_time_in_min
+0,72,20,52,72,5.18789,
+1,152,83,69,80,4.77864,
+2,228,135,93,76,5.44624,
+3,312,198,114,84,4.33452,
+4,392,256,136,80,4.93093,
+5,468,319,149,76,5.29812,
+6,552,377,175,84,4.44846,
+7,632,438,194,80,4.79072,
+8,708,496,212,76,5.4592,
+9,792,560,232,84,4.33501,
+10,872,616,256,80,4.94175,
+11,948,678,270,76,5.30187,
+12,1032,737,295,84,4.47038,
+13,1112,798,314,80,4.78529,
+14,1188,856,332,76,5.45638,
+15,1272,920,352,84,4.34504,
+16,1352,976,376,80,4.95132,
+17,1432,1040,392,80,5.03159,
+18,1512,1129,383,80,4.68567,
+19,1592,1201,391,80,4.79111,
+20,1676,1288,388,84,4.95916,
+21,1752,1360,392,76,5.07412,
+22,1832,1447,385,80,4.94154,
+23,1916,1522,394,84,4.56491,
+24,1992,1611,381,76,5.19626,
+25,2072,1680,392,80,4.78443,
+26,2156,1771,385,84,4.68852,
+27,2232,1842,390,76,5.06051,
+28,2312,1928,384,80,4.94106,
+29,2396,2002,394,84,4.56451,
+30,2472,2091,381,76,5.19449,
+31,2552,2161,391,80,4.78769,
+32,2636,2251,385,84,4.69883,
+33,2712,2322,390,76,5.05216,
+34,2792,2408,384,80,4.93807,
+35,2876,2483,393,84,4.57481,
+36,2952,2571,381,76,5.21773,
+37,3036,2640,396,84,4.56996,
+38,3116,2731,385,80,4.94334,
+39,3192,2802,390,76,5.04382,
+40,3276,2890,386,84,4.95132,
+41,3356,2962,394,80,4.56558,
+42,3436,3050,386,80,5.18216,
+43,3516,3125,391,80,4.80743,
+44,3596,3211,385,80,4.69396,
+45,3676,3283,393,80,5.02269,
+46,3756,3375,381,80,4.91721,
+47,3836,3445,391,80,4.55485,
+48,3916,3531,385,80,5.18073,
+49,3996,3606,390,80,4.80325,
+50,4076,3692,384,80,4.68574,
+51,4156,3764,392,80,5.02376,
+52,4236,3855,381,80,4.93678,
+53,4316,3924,392,80,4.54537,
+54,4396,4012,384,80,5.18804,
+55,4476,4086,390,80,4.79532,
+56,4556,4173,383,80,4.70376,
+57,4640,4244,396,84,4.79031,
+58,4716,4335,381,76,5.19353,
+59,4796,4405,391,80,4.55339,
+60,4800,4469,331,4,0,
+61,4800,4482,318,0,0,
+62,4800,4512,288,0,0,
+63,4800,4523,277,0,0,
+64,4800,4553,247,0,0,
+65,4800,4562,238,0,0,
+66,4800,4593,207,0,0,
+67,4800,4603,197,0,0,
+68,4800,4633,167,0,0,
+69,4800,4642,158,0,0,
+70,4800,4673,127,0,0,
+71,4800,4682,118,0,0,
+72,4800,4713,87,0,0,
+73,4800,4722,78,0,0,
+74,4800,4753,47,0,0,
+75,4800,4763,37,0,0,
+76,4800,4793,7,0,0,
+77,4800,4799,1,0,0,
+78,4800,4800,0,0,0,
+
+
+--MOE Group 8--
+Detailed Data:,output_LinkMOE.csv
+from_node_id,to_node_id,type_code,start_time_in_min,end_time_in_min,total_link_volume,lane_capacity_in_vhc_per_hour,volume_over_capacity_ratio,avg_waiting_time_on_loading_buffer_(min),speed_limit,speed,percentage_of_speed_limit,level_of_service,sensor_data_flag,sensor_link_volume,simulated_link_volume,measurement_error,abs_measurement_error_percentage,simulated_AADT,TotalEnergy_(J/hr),CO2_(g/hr),NOX_(g/hr),CO_(g/hr),HC_(g/hr),sov_volume,hov_volume,truck_volume,intermodal_volume,geometry,from_node_id,to_node_id,vol_d1,spd_d1,
+1,5,a,0,60,1200,900.0000,0.4444,0.0300,35.0000,34.6615,99,A,0,0.0000,1200,0.0000,0.0000,12000.0000,0.0000,0.0000,0.0000,0.0000,0.0000,1200,0,0,0,"<LineString><coordinates>49.901285,24.806079,0.0 49.901285,24.900976,0.0</coordinates></LineString>",1,5,
+5,1,a,0,60,1200,900.0000,0.4444,0.0000,35.0000,28.5563,82,B,0,0.0000,1200,0.0000,0.0000,12000.0000,0.0000,0.0000,0.0000,0.0000,0.0000,1200,0,0,0,"<LineString><coordinates>49.896541,24.900976,0.0 49.896541,24.806079,0.0</coordinates></LineString>",5,1,
+3,5,a,0,60,1200,900.0000,0.4444,0.0300,35.0000,7.1446,20,F,0,0.0000,1200,0.0000,0.0000,12000.0000,0.0000,0.0000,0.0000,0.0000,0.0000,1200,0,0,0,"<LineString><coordinates>49.796771,24.899636,0.0 49.898889,24.898604,0.0</coordinates></LineString>",3,5,
+5,3,a,0,60,1200,900.0000,0.4444,0.0000,35.0000,29.4067,84,B,0,0.0000,1200,0.0000,0.0000,12000.0000,0.0000,0.0000,0.0000,0.0000,0.0000,1200,0,0,0,"<LineString><coordinates>49.898937,24.903348,0.0 49.796819,24.904380,0.0</coordinates></LineString>",5,3,
+4,5,a,0,60,1200,900.0000,0.4444,0.0300,35.0000,35.0000,100,A,0,0.0000,1200,0.0000,0.0000,12000.0000,0.0000,0.0000,0.0000,0.0000,0.0000,1200,0,0,0,"<LineString><coordinates>49.996931,24.902317,0.0 49.898938,24.903348,0.0</coordinates></LineString>",4,5,
+5,4,a,0,60,1200,900.0000,0.4444,0.0000,35.0000,18.0872,52,C,0,0.0000,1200,0.0000,0.0000,12000.0000,0.0000,0.0000,0.0000,0.0000,0.0000,1200,0,0,0,"<LineString><coordinates>49.898888,24.898604,0.0 49.996881,24.897573,0.0</coordinates></LineString>",5,4,
+2,5,a,0,60,1200,900.0000,0.4444,0.0300,35.0000,35.0000,100,A,0,0.0000,1200,0.0000,0.0000,12000.0000,0.0000,0.0000,0.0000,0.0000,0.0000,1200,0,0,0,"<LineString><coordinates>49.901702,24.996003,0.0 49.896544,24.901105,0.0</coordinates></LineString>",2,5,
+5,2,a,0,60,1200,900.0000,0.4444,0.0000,35.0000,24.5580,70,B,0,0.0000,1200,0.0000,0.0000,12000.0000,0.0000,0.0000,0.0000,0.0000,0.0000,1200,0,0,0,"<LineString><coordinates>49.901282,24.900847,0.0 49.906440,24.995745,0.0</coordinates></LineString>",5,2,
+
+
+--MOE Group 9--
+Detailed Data:,output_ODMOE.csv
+origin_zone_no,destination_zone_no,number_of_vehicles,number_of_vehicles_completing_trips,trip_time_in_min,distance_in_mile
+1,2,1000,1000,17.5118,10.0950
+1,3,200,200,17.7030,10.1021
+2,1,1000,1000,0.3618,0.1899
+2,4,200,200,0.4255,0.1930
+3,2,200,200,1.0545,0.1972
+3,4,1000,1000,1.1958,0.2001
+4,1,200,200,0.3700,0.1929
+4,3,1000,1000,0.3766,0.2001

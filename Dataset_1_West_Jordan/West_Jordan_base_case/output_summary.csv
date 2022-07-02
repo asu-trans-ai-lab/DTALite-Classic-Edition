@@ -1,0 +1,52 @@
+DTALite:
+A Fast Open Source DTA Engine
+Software Version =,1.1.0
+Release Date=,Jan 28 2017
+Simulation Date =,year: 2017,month:01,day:28,hour:17,min: 6
+----------------------test1----------------------
+Signal Control Representation =,Continuous Flow with Link Capacity Constraint
+Traffic Flow Model =,Point Queue Model
+Assignment method=,MSA
+ 
+
+
+# of Nodes=,149
+# of Link Types=,12
+# of Links=,378
+# of Prohibited Movements=,0
+# of Pretimed Signals=,15
+# of Actuated Signals=,0
+# of Zones=,41
+# of Activity Locations=,51
+# of Vehicle Types=,5
+# of Demand Types=,4
+# of Sensor Records=,0
+Demand Load Mode=,demand meta databaseReading demand file,input_demand.csv,cumulative # of agents=,25282,
+
+
+Demand multiplier in input_scenario_settings.csv file=,1
+# of Vehicles to be simulated=,25282
+# of Intra-zone Vehicles (not be simulated)=,755.946
+Starting Time of Demand Loading (min)=,930
+Ending Time of Demand Loading (min)=,1050
+Output Emission data=,NO
+
+--Link Type Statistics--
+link_type,link_type_name,link_type_code,number_of_links,avg_lane_capacity,avg_number_of_lanes,avg_speed_limit,avg_link_length,avg_K_jam,total_link_length,
+1,Freeway,f,114,10000,7,20.8772,0.271095,220,30.9048,
+2,Highway/Expressway,h,58,864.414,2.27586,37.4138,0.264813,120,15.3592,
+3,Principal arterial,a,80,793.775,1.8,34.875,0.216109,120,17.2887,
+4,Major arterial,a,112,645.429,1.125,27.4107,0.231049,120,25.8775,
+5,Minor arterial,a,14,514,1,26,0.277057,120,3.8788,
+6,Collector,a,0,0,0,0,0,0,0,
+7,Local,a,0,0,0,0,0,0,0,
+8,Frontage road,a,0,0,0,0,0,0,0,
+9,Ramp,r,0,0,0,0,0,0,0,
+10,Zonal connector,c,0,0,0,0,0,0,0,
+100,Transit link,t,0,0,0,0,0,0,0,
+200,Walking link,w,0,0,0,0,0,0,0,
+# of demand type code based toll records=0
+# of link-based toll records=0
+# of work zone records=0
+# of VMS records=0
+Assignment method=,Zone-based routing

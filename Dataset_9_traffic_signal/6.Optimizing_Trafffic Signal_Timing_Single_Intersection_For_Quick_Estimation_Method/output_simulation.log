@@ -1,0 +1,76 @@
+--- Current Directory: C:\NEXTA_OpenSource\Software_release\test_data_sets\Intersection_For_Quick_Estimation_Method ---
+
+---DTALite: A Fast Open-Source DTA Simulation Engine---
+Version 1.1.0, Release Date Nov 14 2013.
+Simulation Horizon (min) = 300
+Departure Time Interval (min) = 15
+Number of Iterations = 1
+Traffic Flow Model =  Point Queue Model
+Step 1: Reading file input_node.csv...
+Step 2: Reading file input_link_type.csv..
+Step 3: Reading file input_link.csv...
+Step 5: Reading file input_activity_location.csv...
+Step 6: Reading file input_vehicle_type.csv...
+Step 7.1: Reading file input_demand_type.csv...
+Step 7.2: Reading file input_pricing_type.csv...
+Step 9: Reading file input_VOT.csv...
+The following freeway/highway bottlenecks are identified.
+Link :5010-> 4958 at line 1 of file input_sensor.csv  has not been defined in input_link.csv. Please check.
+Reading file input_sensor.csv with 0 valid sensors.
+Step 10: Reading files  based on user settings in  meta database file...
+Reading file Scenario_Incident.csv
+incident records = 0
+Reading file Scenario_Link_Based_Toll.csv
+Reading file Scenario_Work_Zone.csv
+work zone records = 0
+Reading file Scenario_Dynamic_Message_Sign.csv
+VMS records = 0
+Total demand volume = 4800.000
+Total number of vehicles to be simulated = 4800
+ -- zone-specific demand data -- 
+Zone 1,demand =1200.000, agent count =1200
+Zone 2,demand =1200.000, agent count =1200
+Zone 3,demand =1200.000, agent count =1200
+Zone 4,demand =1200.000, agent count =1200
+Number of Zones = 4
+Number of Nodes = 5
+Number of Links = 8
+Number of Vehicles to be Simulated = 4800
+Demand Loading Period = 0 min -> 60 min.
+Number of Vehicle Types = 5
+Number of Demand Types = 4
+Number of VOT records = 47
+Number of iterations = 0
+:: start assignment CPU Clock: 00:00:00 --
+:: complete assignment CPU Clock: 00:00:00 --
+simulation clock:  0:00, # of vehicles  -- Generated: 0, In network: 0
+simulation clock:  0:05, # of vehicles  -- Generated: 396, In network: 136
+simulation clock:  0:10, # of vehicles  -- Generated: 800, In network: 233
+simulation clock:  0:15, # of vehicles  -- Generated: 1200, In network: 338
+simulation clock:  0:20, # of vehicles  -- Generated: 1604, In network: 395
+simulation clock:  0:25, # of vehicles  -- Generated: 2000, In network: 386
+simulation clock:  0:30, # of vehicles  -- Generated: 2400, In network: 390
+simulation clock:  0:35, # of vehicles  -- Generated: 2804, In network: 387
+simulation clock:  0:40, # of vehicles  -- Generated: 3204, In network: 394
+simulation clock:  0:45, # of vehicles  -- Generated: 3604, In network: 387
+simulation clock:  0:50, # of vehicles  -- Generated: 4004, In network: 391
+simulation clock:  0:55, # of vehicles  -- Generated: 4404, In network: 383
+simulation clock:  1:00, # of vehicles  -- Generated: 4800, In network: 387
+simulation clock:  1:05, # of vehicles  -- Generated: 4800, In network: 245
+simulation clock:  1:10, # of vehicles  -- Generated: 4800, In network: 158
+simulation clock:  1:15, # of vehicles  -- Generated: 4800, In network: 45
+CPU Clock: 00:00:00 --Iteration: 0, Average Trip Time: 4.836, Travel Time Index: 1.103, Average Distance: 2.671, Switch %:100.000, Number of Vehicles Complete Their Trips: 4800, 100.000%
+--- MOE for vehicles completing trips ---
+ # of Vehicles = 4800 AvgTripTime = 4.866 (min), AvgDistance = 2.671 (miles), AvgSpeed =  32.939 (mph)
+--- MOE for Each Information Class ---
+Hist Knowledge (VMS non-responsive): # of Vehicles = 4800 ,AvgTripTime = 4.866 (min), AvgDistance = 2.671 (miles), AvgSpeed =  32.939 (mph)
+
+--- MOE for Each Vehicle Type ---
+SOV Passenger Car: # of Vehicles = 4800 ,AvgTripTime = 4.866 (min), AvgDistance = 2.671 (miles), AvgSpeed =  32.939 (mph)
+
+--- MOE for Each Departure Time Interval ---
+Time:0 min, # of Vehicles = 1200 ,AvgTripTime = 4.865 (min), AvgDistance = 2.671 (miles), AvgSpeed =  32.944 (mph)
+Time:15 min, # of Vehicles = 1200 ,AvgTripTime = 4.865 (min), AvgDistance = 2.671 (miles), AvgSpeed =  32.948 (mph)
+Time:30 min, # of Vehicles = 1200 ,AvgTripTime = 4.876 (min), AvgDistance = 2.671 (miles), AvgSpeed =  32.873 (mph)
+Time:45 min, # of Vehicles = 1200 ,AvgTripTime = 4.858 (min), AvgDistance = 2.671 (miles), AvgSpeed =  32.991 (mph)
+

@@ -1,0 +1,583 @@
+Field file_sequence_no = 1
+Field start_time_in_min = 420
+Field end_time_in_min = 540
+demand loading starting time = 420 (min)
+demand loading ending time = 540 (min)
+--- Current Directory: C:\DTALite_release\DTALite-NEXTA-Software-Package\Dataset_3_traffic_assignment\Sioux Falls_Network ---
+
+DTALite: A Fast Open-Source DTA Simulation Engine
+Version 1.1.0, Release Date Jun 25 2016.
+Field scenario_no = 1
+Field random_seed = 100
+Field traffic_flow_model = 1
+Step 1: Reading file input_node.csv...
+Step 2: Reading file input_link_type.csv...
+Step 3: Reading file input_link.csv... = 
+g_PlanningHorizon = 840
+ total # of links loaded = 76
+   # of zones =24
+Step 5: Reading files input_activity_location.csv...
+Step 6: Reading file optional_vehicle_type.csv...
+Step 7.1: Reading file input_demand_type.csv...
+File sensor_count.csv and sensor_speed.csv has 0 valid sensor records.
+Step 10: Reading files based on user settings in meta database file...
+Allocate Memory: node_size= 49,link_size =100
+end of network memory allocation. 
+end of network memory allocation. 
+end of network memory allocation. 
+end of network memory allocation. 
+end of network memory allocation. 
+end of network memory allocation. 
+end of network memory allocation. 
+end of network memory allocation. 
+end of network memory allocation. 
+------- Memory allocation completed.-------
+Step 12.1: Reading transit trip file...
+Step 12.2: Reading/Initializing agent trip file...
+Field file_sequence_no = 1
+Field start_time_in_min = 420
+Field end_time_in_min = 540
+demand loading starting time = 420 (min)
+demand loading ending time = 540 (min)
+Field file_sequence_no = 1
+Field start_time_in_min = 420
+Field end_time_in_min = 540
+Field number_of_lines_to_be_skipped = 1
+Field subtotal_in_last_column = 0
+Field apply_additional_time_dependent_profile = 0
+Field loading_multiplier = 1
+Field number_of_demand_types = 1
+Field demand_type_1 = 1
+from_zone_id,to_zone_id,number_of_trips_demand_type1
+from_zone_id,to_zone_id,number_of_trips_demand_type1
+origin:1, destination: 1, value = 0
+origin:2, destination: 1, value = 100
+origin:3, destination: 1, value = 100
+origin:4, destination: 1, value = 500
+origin:5, destination: 1, value = 200
+Total demand volume = 360600
+Step 11: Converting demand flow to vehicles...
+Total number of vehicles to be simulated = 360600
+Generating 10000 agents... 
+Generating 20000 agents... 
+Generating 30000 agents... 
+Generating 40000 agents... 
+Generating 50000 agents... 
+Generating 60000 agents... 
+Generating 70000 agents... 
+Generating 80000 agents... 
+Generating 90000 agents... 
+Generating 100000 agents... 
+Generating 110000 agents... 
+Generating 120000 agents... 
+Generating 130000 agents... 
+Generating 140000 agents... 
+Generating 150000 agents... 
+Generating 160000 agents... 
+Generating 170000 agents... 
+Generating 180000 agents... 
+Generating 190000 agents... 
+Generating 200000 agents... 
+Generating 210000 agents... 
+Generating 220000 agents... 
+Generating 230000 agents... 
+Generating 240000 agents... 
+Generating 250000 agents... 
+Generating 260000 agents... 
+Generating 270000 agents... 
+Generating 280000 agents... 
+Generating 290000 agents... 
+Generating 300000 agents... 
+Generating 310000 agents... 
+Generating 320000 agents... 
+Generating 330000 agents... 
+Generating 340000 agents... 
+Generating 350000 agents... 
+Generating 360000 agents... 
+Total number of vehicles to be simulated = 360600
+Number of Zones = 24
+Number of Nodes = 24
+Number of Links = 76
+Number of Vehicles to be Simulated = 360600
+Demand Loading Period = 420 min -> 540 min.
+Number of Vehicle Types = 5
+Number of Demand Types = 4
+Start Traffic Assignment/Simulation... 
+Agent based dynamic traffic assignment... 
+# of Computer Processors = 8
+------- Iteration = 0--------
+Processor 0 is working on shortest path calculation..  
+Processor 1 is working on shortest path calculation..  
+Processor 3 is working on shortest path calculation..  
+Processor 4 is working on shortest path calculation..  
+Processor 2 is working on shortest path calculation..  
+Processor 5 is working on shortest path calculation..  
+Processor 6 is working on shortest path calculation..  
+Processor 7 is working on shortest path calculation..  
+---- Network Loading for Iteration 1----
+start simulation process...
+simu clock:  7:00,# of veh --Generated: 124, In network: 124
+ -- CPU Clock: 00:00:01 --
+simu clock:  7:05,# of veh --Generated: 15132, In network: 14185
+simu clock:  7:10,# of veh --Generated: 30131, In network: 22679
+simu clock:  7:15,# of veh --Generated: 45187, In network: 26576
+simu clock:  7:20,# of veh --Generated: 60173, In network: 28101
+simu clock:  7:25,# of veh --Generated: 75275, In network: 28908
+simu clock:  7:30,# of veh --Generated: 90308, In network: 29632
+simu clock:  7:35,# of veh --Generated: 105381, In network: 30424
+simu clock:  7:40,# of veh --Generated: 120437, In network: 31153
+simu clock:  7:45,# of veh --Generated: 135431, In network: 31869
+simu clock:  7:50,# of veh --Generated: 150490, In network: 32653
+simu clock:  7:55,# of veh --Generated: 165602, In network: 33499
+simu clock:  8:00,# of veh --Generated: 180574, In network: 34170
+ -- CPU Clock: 00:00:02 --
+simu clock:  8:05,# of veh --Generated: 195686, In network: 34990
+simu clock:  8:10,# of veh --Generated: 210743, In network: 35770
+simu clock:  8:15,# of veh --Generated: 225732, In network: 36486
+simu clock:  8:20,# of veh --Generated: 240795, In network: 37253
+simu clock:  8:25,# of veh --Generated: 255868, In network: 38032
+simu clock:  8:30,# of veh --Generated: 270898, In network: 38770
+simu clock:  8:35,# of veh --Generated: 286003, In network: 39596
+simu clock:  8:40,# of veh --Generated: 300987, In network: 40329
+simu clock:  8:45,# of veh --Generated: 316045, In network: 41085
+simu clock:  8:50,# of veh --Generated: 331044, In network: 41796
+simu clock:  8:55,# of veh --Generated: 346052, In network: 42533
+simu clock:  9:00,# of veh --Generated: 360600, In network: 42767
+ -- CPU Clock: 00:00:02 --
+simu clock:  9:05,# of veh --Generated: 360600, In network: 29239
+simu clock:  9:10,# of veh --Generated: 360600, In network: 20750
+simu clock:  9:15,# of veh --Generated: 360600, In network: 16442
+simu clock:  9:20,# of veh --Generated: 360600, In network: 14253
+simu clock:  9:25,# of veh --Generated: 360600, In network: 12745
+simu clock:  9:30,# of veh --Generated: 360600, In network: 11229
+simu clock:  9:35,# of veh --Generated: 360600, In network: 9628
+simu clock:  9:40,# of veh --Generated: 360600, In network: 8008
+simu clock:  9:45,# of veh --Generated: 360600, In network: 6391
+simu clock:  9:50,# of veh --Generated: 360600, In network: 4771
+simu clock:  9:55,# of veh --Generated: 360600, In network: 3153
+simu clock: 10:00,# of veh --Generated: 360600, In network: 1577
+ -- CPU Clock: 00:00:03 --
+simu clock: 10:05,# of veh --Generated: 360600, In network: 437
+simu clock: 10:10,# of veh --Generated: 360600, In network: 166
+simu clock: 10:15,# of veh --Generated: 360600, In network: 12
+simu clock: 10:20,# of veh --Generated: 360600, In network: 0
+simu clock: 10:25,# of veh --Generated: 360600, In network: 0
+simu clock: 10:30,# of veh --Generated: 360600, In network: 0
+simu clock: 10:35,# of veh --Generated: 360600, In network: 0
+simu clock: 10:40,# of veh --Generated: 360600, In network: 0
+simu clock: 10:45,# of veh --Generated: 360600, In network: 0
+simu clock: 10:50,# of veh --Generated: 360600, In network: 0
+simu clock: 10:55,# of veh --Generated: 360600, In network: 0
+simu clock: 11:00,# of veh --Generated: 360600, In network: 0
+ -- CPU Clock: 00:00:03 --
+simu clock: 11:05,# of veh --Generated: 360600, In network: 0
+simu clock: 11:10,# of veh --Generated: 360600, In network: 0
+simu clock: 11:15,# of veh --Generated: 360600, In network: 0
+simu clock: 11:20,# of veh --Generated: 360600, In network: 0
+simu clock: 11:25,# of veh --Generated: 360600, In network: 0
+simu clock: 11:30,# of veh --Generated: 360600, In network: 0
+simu clock: 11:35,# of veh --Generated: 360600, In network: 0
+simu clock: 11:40,# of veh --Generated: 360600, In network: 0
+simu clock: 11:45,# of veh --Generated: 360600, In network: 0
+simu clock: 11:50,# of veh --Generated: 360600, In network: 0
+simu clock: 11:55,# of veh --Generated: 360600, In network: 0
+simu clock: 12:00,# of veh --Generated: 360600, In network: 0
+ -- CPU Clock: 00:00:04 --
+simu clock: 12:05,# of veh --Generated: 360600, In network: 0
+simu clock: 12:10,# of veh --Generated: 360600, In network: 0
+simu clock: 12:15,# of veh --Generated: 360600, In network: 0
+simu clock: 12:20,# of veh --Generated: 360600, In network: 0
+simu clock: 12:25,# of veh --Generated: 360600, In network: 0
+simu clock: 12:30,# of veh --Generated: 360600, In network: 0
+simu clock: 12:35,# of veh --Generated: 360600, In network: 0
+simu clock: 12:40,# of veh --Generated: 360600, In network: 0
+simu clock: 12:45,# of veh --Generated: 360600, In network: 0
+simu clock: 12:50,# of veh --Generated: 360600, In network: 0
+simu clock: 12:55,# of veh --Generated: 360600, In network: 0
+simu clock: 13:00,# of veh --Generated: 360600, In network: 0
+ -- CPU Clock: 00:00:04 --
+simu clock: 13:05,# of veh --Generated: 360600, In network: 0
+simu clock: 13:10,# of veh --Generated: 360600, In network: 0
+simu clock: 13:15,# of veh --Generated: 360600, In network: 0
+simu clock: 13:20,# of veh --Generated: 360600, In network: 0
+simu clock: 13:25,# of veh --Generated: 360600, In network: 0
+simu clock: 13:30,# of veh --Generated: 360600, In network: 0
+simu clock: 13:35,# of veh --Generated: 360600, In network: 0
+simu clock: 13:40,# of veh --Generated: 360600, In network: 0
+simu clock: 13:45,# of veh --Generated: 360600, In network: 0
+simu clock: 13:50,# of veh --Generated: 360600, In network: 0
+simu clock: 13:55,# of veh --Generated: 360600, In network: 0
+simu clock: 14:00,# of veh --Generated: 360600, In network: 0
+ -- CPU Clock: 00:00:05 --
+--Simulation completes at this iteration.--
+network loading iteration = 0-UpdateLinkMOEDeviation_ODEstimation.--
+network loading iteration = 0--OutputODMEResults.--
+network loading iteration = 0--data tally for all vehicles.--
+network loading iteration = 0--data tally for VehicleSizeComplete .--
+network loading iteration = 0-tally statistics for time-dependent MOE.--
+network loading iteration = 0-tally statistics for output.NumberofVehiclesCompleteTrips .--
+network loading iteration = 0--return output at this iteration.--
+CPU Clock: 00:00:05 --GenerateSimulationSummary()compute emissions for link 0
+Emission rate data are not available for vehicle type = 1, operating mode = 1 and age = 10
+compute emissions for link 1
+Emission rate data are not available for vehicle type = 1, operating mode = 1 and age = 5
+compute emissions for link 2
+Emission rate data are not available for vehicle type = 1, operating mode = 1 and age = 0
+compute emissions for link 3
+Emission rate data are not available for vehicle type = 1, operating mode = 1 and age = 0
+compute emissions for link 4
+Emission rate data are not available for vehicle type = 1, operating mode = 1 and age = 0
+compute emissions for link 5
+Emission rate data are not available for vehicle type = 1, operating mode = 1 and age = 15
+compute emissions for link 6
+Emission rate data are not available for vehicle type = 1, operating mode = 1 and age = 5
+compute emissions for link 7
+Emission rate data are not available for vehicle type = 1, operating mode = 1 and age = 15
+compute emissions for link 8
+Emission rate data are not available for vehicle type = 1, operating mode = 1 and age = 15
+compute emissions for link 9
+Emission rate data are not available for vehicle type = 1, operating mode = 1 and age = 5
+compute emissions for link 10
+Emission rate data are not available for vehicle type = 1, operating mode = 1 and age = 15
+compute emissions for link 11
+Emission rate data are not available for vehicle type = 1, operating mode = 1 and age = 5
+compute emissions for link 12
+Emission rate data are not available for vehicle type = 1, operating mode = 1 and age = 5
+compute emissions for link 13
+Emission rate data are not available for vehicle type = 1, operating mode = 1 and age = 5
+compute emissions for link 14
+Emission rate data are not available for vehicle type = 1, operating mode = 1 and age = 5
+compute emissions for link 15
+Emission rate data are not available for vehicle type = 1, operating mode = 1 and age = 5
+compute emissions for link 16
+Emission rate data are not available for vehicle type = 1, operating mode = 1 and age = 15
+compute emissions for link 17
+Emission rate data are not available for vehicle type = 1, operating mode = 1 and age = 10
+compute emissions for link 18
+Emission rate data are not available for vehicle type = 1, operating mode = 1 and age = 5
+compute emissions for link 19
+Emission rate data are not available for vehicle type = 1, operating mode = 1 and age = 10
+compute emissions for link 20
+Emission rate data are not available for vehicle type = 1, operating mode = 1 and age = 10
+compute emissions for link 21
+Emission rate data are not available for vehicle type = 1, operating mode = 1 and age = 10
+compute emissions for link 22
+Emission rate data are not available for vehicle type = 1, operating mode = 1 and age = 15
+compute emissions for link 23
+Emission rate data are not available for vehicle type = 1, operating mode = 1 and age = 0
+compute emissions for link 24
+Emission rate data are not available for vehicle type = 1, operating mode = 1 and age = 10
+compute emissions for link 25
+Emission rate data are not available for vehicle type = 1, operating mode = 1 and age = 5
+compute emissions for link 26
+Emission rate data are not available for vehicle type = 1, operating mode = 1 and age = 10
+compute emissions for link 27
+Emission rate data are not available for vehicle type = 1, operating mode = 1 and age = 10
+compute emissions for link 28
+Emission rate data are not available for vehicle type = 1, operating mode = 1 and age = 10
+compute emissions for link 29
+compute emissions for link 30
+Emission rate data are not available for vehicle type = 1, operating mode = 1 and age = 0
+compute emissions for link 31
+Emission rate data are not available for vehicle type = 1, operating mode = 1 and age = 0
+compute emissions for link 32
+Emission rate data are not available for vehicle type = 1, operating mode = 1 and age = 10
+compute emissions for link 33
+Emission rate data are not available for vehicle type = 1, operating mode = 1 and age = 0
+compute emissions for link 34
+Emission rate data are not available for vehicle type = 1, operating mode = 1 and age = 15
+compute emissions for link 35
+Emission rate data are not available for vehicle type = 1, operating mode = 1 and age = 5
+compute emissions for link 36
+Emission rate data are not available for vehicle type = 1, operating mode = 1 and age = 10
+compute emissions for link 37
+Emission rate data are not available for vehicle type = 1, operating mode = 1 and age = 5
+compute emissions for link 38
+Emission rate data are not available for vehicle type = 1, operating mode = 1 and age = 0
+compute emissions for link 39
+Emission rate data are not available for vehicle type = 1, operating mode = 1 and age = 0
+compute emissions for link 40
+Emission rate data are not available for vehicle type = 1, operating mode = 1 and age = 0
+compute emissions for link 41
+Emission rate data are not available for vehicle type = 1, operating mode = 1 and age = 5
+compute emissions for link 42
+Emission rate data are not available for vehicle type = 1, operating mode = 1 and age = 15
+compute emissions for link 43
+Emission rate data are not available for vehicle type = 1, operating mode = 1 and age = 0
+compute emissions for link 44
+Emission rate data are not available for vehicle type = 1, operating mode = 1 and age = 0
+compute emissions for link 45
+Emission rate data are not available for vehicle type = 1, operating mode = 1 and age = 10
+compute emissions for link 46
+Emission rate data are not available for vehicle type = 1, operating mode = 1 and age = 10
+compute emissions for link 47
+Emission rate data are not available for vehicle type = 1, operating mode = 1 and age = 0
+compute emissions for link 48
+Emission rate data are not available for vehicle type = 1, operating mode = 1 and age = 0
+compute emissions for link 49
+Emission rate data are not available for vehicle type = 1, operating mode = 1 and age = 10
+compute emissions for link 50
+compute emissions for link 51
+Emission rate data are not available for vehicle type = 1, operating mode = 1 and age = 10
+compute emissions for link 52
+Emission rate data are not available for vehicle type = 1, operating mode = 1 and age = 0
+compute emissions for link 53
+Emission rate data are not available for vehicle type = 1, operating mode = 1 and age = 15
+compute emissions for link 54
+Emission rate data are not available for vehicle type = 1, operating mode = 1 and age = 5
+compute emissions for link 55
+Emission rate data are not available for vehicle type = 1, operating mode = 1 and age = 10
+compute emissions for link 56
+Emission rate data are not available for vehicle type = 1, operating mode = 1 and age = 15
+compute emissions for link 57
+Emission rate data are not available for vehicle type = 1, operating mode = 1 and age = 0
+compute emissions for link 58
+Emission rate data are not available for vehicle type = 1, operating mode = 1 and age = 5
+compute emissions for link 59
+Emission rate data are not available for vehicle type = 1, operating mode = 1 and age = 5
+compute emissions for link 60
+Emission rate data are not available for vehicle type = 1, operating mode = 1 and age = 10
+compute emissions for link 61
+Emission rate data are not available for vehicle type = 1, operating mode = 1 and age = 5
+compute emissions for link 62
+Emission rate data are not available for vehicle type = 1, operating mode = 1 and age = 0
+compute emissions for link 63
+Emission rate data are not available for vehicle type = 1, operating mode = 1 and age = 15
+compute emissions for link 64
+Emission rate data are not available for vehicle type = 1, operating mode = 1 and age = 10
+compute emissions for link 65
+Emission rate data are not available for vehicle type = 1, operating mode = 1 and age = 0
+compute emissions for link 66
+Emission rate data are not available for vehicle type = 1, operating mode = 1 and age = 15
+compute emissions for link 67
+Emission rate data are not available for vehicle type = 1, operating mode = 1 and age = 15
+compute emissions for link 68
+Emission rate data are not available for vehicle type = 1, operating mode = 1 and age = 5
+compute emissions for link 69
+Emission rate data are not available for vehicle type = 1, operating mode = 1 and age = 10
+compute emissions for link 70
+Emission rate data are not available for vehicle type = 1, operating mode = 1 and age = 0
+compute emissions for link 71
+Emission rate data are not available for vehicle type = 1, operating mode = 1 and age = 10
+compute emissions for link 72
+Emission rate data are not available for vehicle type = 1, operating mode = 1 and age = 15
+compute emissions for link 73
+Emission rate data are not available for vehicle type = 1, operating mode = 1 and age = 10
+compute emissions for link 74
+Emission rate data are not available for vehicle type = 1, operating mode = 1 and age = 0
+compute emissions for link 75
+Emission rate data are not available for vehicle type = 1, operating mode = 1 and age = 10
+CPU Clock: 00:00:05 --Iter: 0, Avg Trip Time: 13.1434, Avg Trip Time Index: 1.49229, Avg Dist: 8.80754, Switch %:100, # of veh Complete Trips: 360600, 100%
+Avg Gap: 0
+ outputing MOE type network, network
+ outputing MOE type network, sov
+ outputing MOE type network, hov
+ outputing MOE type network, truck
+ outputing MOE type network, intermodal
+ outputing MOE type network, passenger_car
+ outputing MOE type network, passenger_truck
+ outputing MOE type network, light_commercial
+ outputing MOE type network, single_unit_long_truck
+ outputing MOE type network, combination_long_truck
+ outputing MOE type od, OD1
+ outputing MOE type od, OD2
+ outputing MOE type link, link_48_41_ NB freeway
+ outputing MOE type link, link_39_44_NB freeway
+ outputing MOE type path_3point, 'Path1_Major freeway route
+ outputing MOE type network_time_dependent, for all demand types
+ outputing MOE type link_critical, critical link list
+ outputing MOE type od_critical, critical OD list
+Writing Vehicle Trajectory and MOE File... 
+     outputing emssions data... 
+compute emissions for link 0
+Emission rate data are not available for vehicle type = 1, operating mode = 1 and age = 10
+compute emissions for link 1
+Emission rate data are not available for vehicle type = 1, operating mode = 1 and age = 5
+compute emissions for link 2
+Emission rate data are not available for vehicle type = 1, operating mode = 1 and age = 0
+compute emissions for link 3
+Emission rate data are not available for vehicle type = 1, operating mode = 1 and age = 0
+compute emissions for link 4
+Emission rate data are not available for vehicle type = 1, operating mode = 1 and age = 0
+compute emissions for link 5
+Emission rate data are not available for vehicle type = 1, operating mode = 1 and age = 15
+compute emissions for link 6
+Emission rate data are not available for vehicle type = 1, operating mode = 1 and age = 5
+compute emissions for link 7
+Emission rate data are not available for vehicle type = 1, operating mode = 1 and age = 15
+compute emissions for link 8
+Emission rate data are not available for vehicle type = 1, operating mode = 1 and age = 15
+compute emissions for link 9
+Emission rate data are not available for vehicle type = 1, operating mode = 1 and age = 5
+compute emissions for link 10
+Emission rate data are not available for vehicle type = 1, operating mode = 1 and age = 15
+compute emissions for link 11
+Emission rate data are not available for vehicle type = 1, operating mode = 1 and age = 5
+compute emissions for link 12
+Emission rate data are not available for vehicle type = 1, operating mode = 1 and age = 5
+compute emissions for link 13
+Emission rate data are not available for vehicle type = 1, operating mode = 1 and age = 5
+compute emissions for link 14
+Emission rate data are not available for vehicle type = 1, operating mode = 1 and age = 5
+compute emissions for link 15
+Emission rate data are not available for vehicle type = 1, operating mode = 1 and age = 5
+compute emissions for link 16
+Emission rate data are not available for vehicle type = 1, operating mode = 1 and age = 15
+compute emissions for link 17
+Emission rate data are not available for vehicle type = 1, operating mode = 1 and age = 10
+compute emissions for link 18
+Emission rate data are not available for vehicle type = 1, operating mode = 1 and age = 5
+compute emissions for link 19
+Emission rate data are not available for vehicle type = 1, operating mode = 1 and age = 10
+compute emissions for link 20
+Emission rate data are not available for vehicle type = 1, operating mode = 1 and age = 10
+compute emissions for link 21
+Emission rate data are not available for vehicle type = 1, operating mode = 1 and age = 10
+compute emissions for link 22
+Emission rate data are not available for vehicle type = 1, operating mode = 1 and age = 15
+compute emissions for link 23
+Emission rate data are not available for vehicle type = 1, operating mode = 1 and age = 0
+compute emissions for link 24
+Emission rate data are not available for vehicle type = 1, operating mode = 1 and age = 10
+compute emissions for link 25
+Emission rate data are not available for vehicle type = 1, operating mode = 1 and age = 5
+compute emissions for link 26
+Emission rate data are not available for vehicle type = 1, operating mode = 1 and age = 10
+compute emissions for link 27
+Emission rate data are not available for vehicle type = 1, operating mode = 1 and age = 10
+compute emissions for link 28
+Emission rate data are not available for vehicle type = 1, operating mode = 1 and age = 10
+compute emissions for link 29
+compute emissions for link 30
+Emission rate data are not available for vehicle type = 1, operating mode = 1 and age = 0
+compute emissions for link 31
+Emission rate data are not available for vehicle type = 1, operating mode = 1 and age = 0
+compute emissions for link 32
+Emission rate data are not available for vehicle type = 1, operating mode = 1 and age = 10
+compute emissions for link 33
+Emission rate data are not available for vehicle type = 1, operating mode = 1 and age = 0
+compute emissions for link 34
+Emission rate data are not available for vehicle type = 1, operating mode = 1 and age = 15
+compute emissions for link 35
+Emission rate data are not available for vehicle type = 1, operating mode = 1 and age = 5
+compute emissions for link 36
+Emission rate data are not available for vehicle type = 1, operating mode = 1 and age = 10
+compute emissions for link 37
+Emission rate data are not available for vehicle type = 1, operating mode = 1 and age = 5
+compute emissions for link 38
+Emission rate data are not available for vehicle type = 1, operating mode = 1 and age = 0
+compute emissions for link 39
+Emission rate data are not available for vehicle type = 1, operating mode = 1 and age = 0
+compute emissions for link 40
+Emission rate data are not available for vehicle type = 1, operating mode = 1 and age = 0
+compute emissions for link 41
+Emission rate data are not available for vehicle type = 1, operating mode = 1 and age = 5
+compute emissions for link 42
+Emission rate data are not available for vehicle type = 1, operating mode = 1 and age = 15
+compute emissions for link 43
+Emission rate data are not available for vehicle type = 1, operating mode = 1 and age = 0
+compute emissions for link 44
+Emission rate data are not available for vehicle type = 1, operating mode = 1 and age = 0
+compute emissions for link 45
+Emission rate data are not available for vehicle type = 1, operating mode = 1 and age = 10
+compute emissions for link 46
+Emission rate data are not available for vehicle type = 1, operating mode = 1 and age = 10
+compute emissions for link 47
+Emission rate data are not available for vehicle type = 1, operating mode = 1 and age = 0
+compute emissions for link 48
+Emission rate data are not available for vehicle type = 1, operating mode = 1 and age = 0
+compute emissions for link 49
+Emission rate data are not available for vehicle type = 1, operating mode = 1 and age = 10
+compute emissions for link 50
+compute emissions for link 51
+Emission rate data are not available for vehicle type = 1, operating mode = 1 and age = 10
+compute emissions for link 52
+Emission rate data are not available for vehicle type = 1, operating mode = 1 and age = 0
+compute emissions for link 53
+Emission rate data are not available for vehicle type = 1, operating mode = 1 and age = 15
+compute emissions for link 54
+Emission rate data are not available for vehicle type = 1, operating mode = 1 and age = 5
+compute emissions for link 55
+Emission rate data are not available for vehicle type = 1, operating mode = 1 and age = 10
+compute emissions for link 56
+Emission rate data are not available for vehicle type = 1, operating mode = 1 and age = 15
+compute emissions for link 57
+Emission rate data are not available for vehicle type = 1, operating mode = 1 and age = 0
+compute emissions for link 58
+Emission rate data are not available for vehicle type = 1, operating mode = 1 and age = 5
+compute emissions for link 59
+Emission rate data are not available for vehicle type = 1, operating mode = 1 and age = 5
+compute emissions for link 60
+Emission rate data are not available for vehicle type = 1, operating mode = 1 and age = 10
+compute emissions for link 61
+Emission rate data are not available for vehicle type = 1, operating mode = 1 and age = 5
+compute emissions for link 62
+Emission rate data are not available for vehicle type = 1, operating mode = 1 and age = 0
+compute emissions for link 63
+Emission rate data are not available for vehicle type = 1, operating mode = 1 and age = 15
+compute emissions for link 64
+Emission rate data are not available for vehicle type = 1, operating mode = 1 and age = 10
+compute emissions for link 65
+Emission rate data are not available for vehicle type = 1, operating mode = 1 and age = 0
+compute emissions for link 66
+Emission rate data are not available for vehicle type = 1, operating mode = 1 and age = 15
+compute emissions for link 67
+Emission rate data are not available for vehicle type = 1, operating mode = 1 and age = 15
+compute emissions for link 68
+Emission rate data are not available for vehicle type = 1, operating mode = 1 and age = 5
+compute emissions for link 69
+Emission rate data are not available for vehicle type = 1, operating mode = 1 and age = 10
+compute emissions for link 70
+Emission rate data are not available for vehicle type = 1, operating mode = 1 and age = 0
+compute emissions for link 71
+Emission rate data are not available for vehicle type = 1, operating mode = 1 and age = 10
+compute emissions for link 72
+Emission rate data are not available for vehicle type = 1, operating mode = 1 and age = 15
+compute emissions for link 73
+Emission rate data are not available for vehicle type = 1, operating mode = 1 and age = 10
+compute emissions for link 74
+Emission rate data are not available for vehicle type = 1, operating mode = 1 and age = 0
+compute emissions for link 75
+Emission rate data are not available for vehicle type = 1, operating mode = 1 and age = 10
+     outputing output_NetworkTDMOE.csv... 
+     outputing output_agent.csv... 
+     outputing output_ODMOE.csv... 
+     outputing output_LinkTDMOE.csv... 
+     MOE output complete... 
+  outputing simulation summary for MOE 1 network
+  outputing simulation summary for MOE 2 sov
+  outputing simulation summary for MOE 2 hov
+  outputing simulation summary for MOE 2 truck
+  outputing simulation summary for MOE 2 intermodal
+  outputing simulation summary for MOE 3 passenger_car
+  outputing simulation summary for MOE 3 passenger_truck
+  outputing simulation summary for MOE 3 light_commercial
+  outputing simulation summary for MOE 3 single_unit_long_truck
+  outputing simulation summary for MOE 3 combination_long_truck
+  outputing simulation summary for MOE 4 OD1
+  outputing simulation summary for MOE 4 OD2
+  outputing simulation summary for MOE 5 link_48_41_ NB freeway
+  outputing simulation summary for MOE 5 link_39_44_NB freeway
+  outputing simulation summary for MOE 6 'Path1_Major freeway route
+  outputing simulation summary for MOE 7 for all demand types
+  outputing simulation summary for MOE 8 critical link list
+  outputing simulation summary for MOE 9 critical OD list
+ outputing MOE type network, network
+ outputing MOE type network, sov
+ outputing MOE type network, hov
+ outputing MOE type network, truck
+ outputing MOE type network, intermodal
+ outputing MOE type network, passenger_car
+ outputing MOE type network, passenger_truck
+ outputing MOE type network, light_commercial
+ outputing MOE type network, single_unit_long_truck
+ outputing MOE type network, combination_long_truck
+ outputing MOE type od, OD1
+ outputing MOE type od, OD2
+ outputing MOE type link, link_48_41_ NB freeway
+ outputing MOE type link, link_39_44_NB freeway
+ outputing MOE type path_3point, 'Path1_Major freeway route
+ outputing MOE type network_time_dependent, for all demand types
+ outputing MOE type link_critical, critical link list
+ outputing MOE type od_critical, critical OD list
+Free memory... 

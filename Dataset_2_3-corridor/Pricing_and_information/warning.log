@@ -1,0 +1,1 @@
+    node_id 42 in input_activity_location.csv has no incoming link, which should not defined as a destination activity node. please set external_od_flag = 1 for node_id 42

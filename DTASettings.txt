@@ -1,0 +1,16 @@
+[shortest_path]
+max_size_of_adjacent_links=30
+[simulation]
+use_point_queue_for_on_ramps=1
+use_point_queue_for_off_ramps=1
+demand_capcaity_scaling_factor= 1.00
+default_saturation_flow_rate_in_vehphpl=1800.00
+[emission]
+output_emission_data=1
+target_vehicle_id_for_output_second_by_second_emission_data=0
+[assignment]
+agent_based_assignment=0
+aggregation_time_interval_in_min=15
+convergency_relative_gap_threshold_percentage= 5.00
+travel_time_difference_for_switching_in_min= 1.00
+relative_travel_time_difference_in_percentage_for_switching_in_percentage=15.00

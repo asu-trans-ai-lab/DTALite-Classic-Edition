@@ -1,0 +1,9 @@
+section,key,file_name,loading_flag,format,allowed_values,aggregation_time_interval_in_min,example,comment,NEXTA_capability
+model,model_static_link_MOE,output_LinkMOE.csv,yes,csv,csv,,output_LinkMOE.csv,,visualization
+model,model_time_dependent_link_MOE,output_LinkTDMOE.bin,yes,binary,csv;binary,1,output_LinkTDMOE.csv,,"visualization, bottleneck identification"
+model,model_vehicle_location_data,agent.bin,yes,binary,csv;binary,,agent.bin,,"visualization, vehicle statistics summary"
+sensor,sensor_count_data,,yes,csv,csv,,input_sensor.csv,,"visualization, count data comparison"
+sensor,sensor_speed_data,,yes,matrix_csv,matrix_csv,15,TMC_speed.csv,,"visualization, path travel time processing"
+sensor,sensor_vehicle_location_data,,yes,csv,csv,,GPS.csv,,"visualization, GPS map matching"
+event,event_incident,,no,,csv,,,in progress,
+transit,transit_data,,no,google_transit_feed,google_transit_feed,,transit_data//,keep the same folder,"visulization, accessibility calculation"

@@ -1,0 +1,3 @@
+from_node_id,to_node_id,plan_no,plan_startime_in_sec,plan_endtime_in_sec,to_node_cycle_in_sec,to_node_offset_in_sec,through_saturation_flow_rate_per_hour_per_lane,through_green_start_time_in_sec,through_green_end_time_in_sec,left_saturation_flow_rate_per_hour_per_lane,left_green_start_time_in_sec,left_green_end_time_in_sec
+30,31,1,0,86400,60,10,1800,0,30,900,0,15
+3,4,1,0,86400,60,10,1800,0,10,,,

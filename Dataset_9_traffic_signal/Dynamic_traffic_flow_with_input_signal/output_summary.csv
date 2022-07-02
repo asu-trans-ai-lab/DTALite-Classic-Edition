@@ -1,0 +1,56 @@
+DTALite:
+A Fast Open Source DTA Engine
+Software Version =,1.1.0
+Release Date=,Mar 28 2017
+Simulation Date =,year: 2017,month:03,day:28,hour: 9,min: 9
+----------------------test1----------------------
+Signal Control Representation =,Continuous Flow with Link Capacity Constraint
+Traffic Flow Model =,Point Queue Model
+Assignment method=,MSA
+ 
+
+
+# of Nodes=,40
+# of Link Types=,12
+# of Links=,55
+# of Prohibited Movements=,0
+# of Pretimed Signals=,3
+# of Actuated Signals=,0
+# of Zones=,6
+# of Activity Locations=,6
+# of Vehicle Types=,11
+# of Demand Types=,4
+# of Sensor Records=,0
+Demand Load Mode=,demand meta databaseReading demand file,input_demand.csv,cumulative # of agents=,7200,
+
+
+Demand multiplier in input_scenario_settings.csv file=,1
+# of Vehicles to be simulated=,7200
+# of Intra-zone Vehicles (not be simulated)=,0
+Starting Time of Demand Loading (min)=,420
+Ending Time of Demand Loading (min)=,540
+Output Emission data=,YES
+Output second by second speed data=,NO
+Vehicle ID with second by second speed data=,0
+
+--Link Type Statistics--
+link_type,link_type_name,link_type_code,number_of_links,avg_lane_capacity,avg_number_of_lanes,avg_speed_limit,avg_link_length,avg_K_jam,total_link_length,
+1,Freeway,f,28,1803.57,2.96429,60,1,180,28,
+2,Highway,h,0,0,0,0,0,0,0,
+3,Principal arterial,a,0,0,0,0,0,0,0,
+4,Major arterial,a,26,1700,2.73077,56.9231,1.87921,180,48.8595,
+5,Minor arterial,a,1,700,2,30,2,180,2,
+6,Collector,a,0,0,0,0,0,0,0,
+7,Local,a,0,0,0,0,0,0,0,
+8,Frontage road,a,0,0,0,0,0,0,0,
+9,Ramp,r,0,0,0,0,0,0,0,
+10,Zonal connector,c,0,0,0,0,0,0,0,
+100,Transit link,t,0,0,0,0,0,0,0,
+200,Walking link,w,0,0,0,0,0,0,0,
+# of demand type code based toll records=0
+# of link-based toll records=0
+# of work zone records=0
+# of VMS records=0
+Assignment method=,Zone-based routing
+Iteration #,CPU Running Time,Per Iteration CPU Running Time,# of agents,Avg Travel Time (min),Avg Waiting Time at Origin (min),Avg Trip Time Index=(Mean TT/Free-flow TT),Avg Distance,Avg Speed,Avg CO (g),% considering to switch,% switched,% completing trips,network clearance time (in min),Avg User Equilibirum (UE) gap (min),Relative UE gap (%),ODME: number of data points,ODME: Absolute link count error,ODME: % link count error,ODME: slope =observed/estimated link count,ODME: r_squared link count,travel_time_ 7:00,travel_time_ 7:15,travel_time_ 7:30,travel_time_ 7:45,travel_time_ 8:00,travel_time_ 8:15,travel_time_ 8:30,travel_time_ 8:45,Avg UE gap_ 7:00,Avg UE gap_ 7:15,Avg UE gap_ 7:30,Avg UE gap_ 7:45,Avg UE gap_ 8:00,Avg UE gap_ 8:15,Avg UE gap_ 8:30,Avg UE gap_ 8:45,Relative UE gap_ 7:00,Relative UE gap_ 7:15,Relative UE gap_ 7:30,Relative UE gap_ 7:45,Relative UE gap_ 8:00,Relative UE gap_ 8:15,Relative UE gap_ 8:30,Relative UE gap_ 8:45,
+1,00:00:06,00:00:06,7200,116.85,0,10.6181,11,5.64829,56773.1,100,100,100,840, , , , , , , ,30.5488,69.8117,106.792,137.682,142.719,145.899,149.08,152.264, , , , , , , , , , , , , , , , ,

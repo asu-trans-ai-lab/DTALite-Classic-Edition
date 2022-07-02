@@ -1,0 +1,730 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Traffic Simulation Data</name>
+<Style id="green">
+<LineStyle>
+<width>1.5</width>
+</LineStyle>
+<PolyStyle>
+ <color>7d00ff00</color>
+</PolyStyle>
+</Style>
+<Style id="red">
+<LineStyle>
+<width>1.5</width>
+</LineStyle>
+<PolyStyle>
+ <color>7d0000ff</color>
+</PolyStyle>
+</Style>
+<Style id="blue">
+<LineStyle>
+<width>1.5</width>
+</LineStyle>
+<PolyStyle>
+ <color>7dff0000</color>
+</PolyStyle>
+</Style>
+<Style id="yellow">
+<LineStyle>
+<width>1.5</width>
+</LineStyle>
+<PolyStyle>
+ <color>7d00ffff</color>
+</PolyStyle>
+</Style>
+<Style id="color1">
+<LineStyle>
+<width>1.5</width>
+</LineStyle>
+<PolyStyle>
+ <color>4c00ff00</color>
+</PolyStyle>
+</Style>
+<Style id="color2">
+<LineStyle>
+<width>1.5</width>
+</LineStyle>
+<PolyStyle>
+ <color>4c75faff</color>
+</PolyStyle>
+</Style>
+<Style id="color3">
+<LineStyle>
+<width>1.5</width>
+</LineStyle>
+<PolyStyle>
+ <color>4c00faff</color>
+</PolyStyle>
+</Style>
+<Style id="color4">
+<LineStyle>
+<width>1.5</width>
+</LineStyle>
+<PolyStyle>
+ <color>4c00d8ff</color>
+</PolyStyle>
+</Style>
+<Style id="color5">
+<LineStyle>
+<width>1.5</width>
+</LineStyle>
+<PolyStyle>
+ <color>4c0099ff</color>
+</PolyStyle>
+</Style>
+<Style id="color6">
+<LineStyle>
+<width>1.5</width>
+</LineStyle>
+<PolyStyle>
+ <color>4c0000ff</color>
+</PolyStyle>
+</Style>
+<Style id="no_control_node">
+<BalloonStyle>
+<displayMode>hide</displayMode>
+</BalloonStyle>
+</Style><Style id="signal_node">      <IconStyle>        <Icon>          <href>http://maps.google.com/mapfiles/kml/paddle/red-stars.png</href>        </Icon>      </IconStyle>    </Style><Folder><name>Node Layer</name> 
+		<visibility>0</visibility>
+<Schema name="node" id="node">
+<SimpleField name="Description" type="string"></SimpleField>
+<SimpleField name="Name" type="string"></SimpleField>
+<SimpleField name="node_id" type="int"></SimpleField>
+<SimpleField name="control_type" type="string"></SimpleField>
+</Schema>
+<Placemark id="Node1">
+		<styleUrl>#no_control_node</styleUrl>
+<name>Node 1</name>
+<ExtendedData><SchemaData schemaUrl="#node">
+<SimpleData name="node_id">1</SimpleData>
+<SimpleData name="control_type">unknown_control</SimpleData>
+</SchemaData></ExtendedData>
+<Point><coordinates>49.898913,24.806079</coordinates></Point>
+</Placemark>
+<Placemark id="Node2">
+		<styleUrl>#no_control_node</styleUrl>
+<name>Node 2</name>
+<ExtendedData><SchemaData schemaUrl="#node">
+<SimpleData name="node_id">2</SimpleData>
+<SimpleData name="control_type">unknown_control</SimpleData>
+</SchemaData></ExtendedData>
+<Point><coordinates>49.904071,24.995874</coordinates></Point>
+</Placemark>
+<Placemark id="Node3">
+		<styleUrl>#no_control_node</styleUrl>
+<name>Node 3</name>
+<ExtendedData><SchemaData schemaUrl="#node">
+<SimpleData name="node_id">3</SimpleData>
+<SimpleData name="control_type">unknown_control</SimpleData>
+</SchemaData></ExtendedData>
+<Point><coordinates>49.796795,24.902008</coordinates></Point>
+</Placemark>
+<Placemark id="Node4">
+		<styleUrl>#no_control_node</styleUrl>
+<name>Node 4</name>
+<ExtendedData><SchemaData schemaUrl="#node">
+<SimpleData name="node_id">4</SimpleData>
+<SimpleData name="control_type">unknown_control</SimpleData>
+</SchemaData></ExtendedData>
+<Point><coordinates>49.996906,24.899945</coordinates></Point>
+</Placemark>
+<Placemark id="Node5">
+		<styleUrl>#no_control_node</styleUrl>
+<name>Node 5</name>
+<ExtendedData><SchemaData schemaUrl="#node">
+<SimpleData name="node_id">5</SimpleData>
+<SimpleData name="control_type">no_control</SimpleData>
+</SchemaData></ExtendedData>
+<Point><coordinates>49.898913,24.900976</coordinates></Point>
+</Placemark>
+</Folder>
+<Folder><name>Link Layer</name> 
+<Schema name="link" id="link">
+<SimpleField name="Description" type="string"></SimpleField>
+<SimpleField name="Name" type="string"></SimpleField>
+<SimpleField name="from_node_id" type="int"></SimpleField>
+<SimpleField name="to_node_id" type="int"></SimpleField>
+<SimpleField name="link_id" type="int"></SimpleField>
+<SimpleField name="link_length_in_mile" type="float"></SimpleField>
+<SimpleField name="number_of_lanes" type="int"></SimpleField>
+<SimpleField name="speed_limit_mph" type="float"></SimpleField>
+<SimpleField name="capacity_per_lane_per_hour" type="float"></SimpleField>
+<SimpleField name="capacity_per_link_per_hour" type="float"></SimpleField>
+<SimpleField name="free_flow_travel_time_(min)" type="float"></SimpleField>
+</Schema>
+<Placemark id="Link1">
+<name>Link </name>
+<ExtendedData><SchemaData schemaUrl="#link">
+<SimpleData name="from_node_id">1</SimpleData>
+<SimpleData name="to_node_id">5</SimpleData>
+<SimpleData name="link_id">1</SimpleData>
+<SimpleData name="link_length_in_mile">10.00</SimpleData>
+<SimpleData name="number_of_lanes">3</SimpleData>
+<SimpleData name="speed_limit_mph">35.00</SimpleData>
+<SimpleData name="capacity_per_lane_per_hour">900.00</SimpleData>
+<SimpleData name="capacity_per_link_per_hour">2700.00</SimpleData>
+<SimpleData name="free_flow_travel_time_(min)">17.14</SimpleData>
+</SchemaData></ExtendedData>
+<LineString><coordinates>49.901285,24.806079,7 49.901285,24.900976,7</coordinates></LineString>
+</Placemark>
+<Placemark id="Link2">
+<name>Link </name>
+<ExtendedData><SchemaData schemaUrl="#link">
+<SimpleData name="from_node_id">5</SimpleData>
+<SimpleData name="to_node_id">1</SimpleData>
+<SimpleData name="link_id">2</SimpleData>
+<SimpleData name="link_length_in_mile"> 0.09</SimpleData>
+<SimpleData name="number_of_lanes">3</SimpleData>
+<SimpleData name="speed_limit_mph">35.00</SimpleData>
+<SimpleData name="capacity_per_lane_per_hour">900.00</SimpleData>
+<SimpleData name="capacity_per_link_per_hour">2700.00</SimpleData>
+<SimpleData name="free_flow_travel_time_(min)"> 0.16</SimpleData>
+</SchemaData></ExtendedData>
+<LineString><coordinates>49.896541,24.900976,7 49.896541,24.806079,7</coordinates></LineString>
+</Placemark>
+<Placemark id="Link3">
+<name>Link </name>
+<ExtendedData><SchemaData schemaUrl="#link">
+<SimpleData name="from_node_id">3</SimpleData>
+<SimpleData name="to_node_id">5</SimpleData>
+<SimpleData name="link_id">3</SimpleData>
+<SimpleData name="link_length_in_mile"> 0.10</SimpleData>
+<SimpleData name="number_of_lanes">3</SimpleData>
+<SimpleData name="speed_limit_mph">35.00</SimpleData>
+<SimpleData name="capacity_per_lane_per_hour">900.00</SimpleData>
+<SimpleData name="capacity_per_link_per_hour">2700.00</SimpleData>
+<SimpleData name="free_flow_travel_time_(min)"> 0.18</SimpleData>
+</SchemaData></ExtendedData>
+<LineString><coordinates>49.796771,24.899636,7 49.898889,24.898604,7</coordinates></LineString>
+</Placemark>
+<Placemark id="Link4">
+<name>Link </name>
+<ExtendedData><SchemaData schemaUrl="#link">
+<SimpleData name="from_node_id">5</SimpleData>
+<SimpleData name="to_node_id">3</SimpleData>
+<SimpleData name="link_id">4</SimpleData>
+<SimpleData name="link_length_in_mile"> 0.10</SimpleData>
+<SimpleData name="number_of_lanes">3</SimpleData>
+<SimpleData name="speed_limit_mph">35.00</SimpleData>
+<SimpleData name="capacity_per_lane_per_hour">900.00</SimpleData>
+<SimpleData name="capacity_per_link_per_hour">2700.00</SimpleData>
+<SimpleData name="free_flow_travel_time_(min)"> 0.18</SimpleData>
+</SchemaData></ExtendedData>
+<LineString><coordinates>49.898937,24.903348,7 49.796819,24.904380,7</coordinates></LineString>
+</Placemark>
+<Placemark id="Link5">
+<name>Link </name>
+<ExtendedData><SchemaData schemaUrl="#link">
+<SimpleData name="from_node_id">4</SimpleData>
+<SimpleData name="to_node_id">5</SimpleData>
+<SimpleData name="link_id">5</SimpleData>
+<SimpleData name="link_length_in_mile"> 0.10</SimpleData>
+<SimpleData name="number_of_lanes">3</SimpleData>
+<SimpleData name="speed_limit_mph">35.00</SimpleData>
+<SimpleData name="capacity_per_lane_per_hour">900.00</SimpleData>
+<SimpleData name="capacity_per_link_per_hour">2700.00</SimpleData>
+<SimpleData name="free_flow_travel_time_(min)"> 0.17</SimpleData>
+</SchemaData></ExtendedData>
+<LineString><coordinates>49.996931,24.902317,7 49.898938,24.903348,7</coordinates></LineString>
+</Placemark>
+<Placemark id="Link6">
+<name>Link </name>
+<ExtendedData><SchemaData schemaUrl="#link">
+<SimpleData name="from_node_id">5</SimpleData>
+<SimpleData name="to_node_id">4</SimpleData>
+<SimpleData name="link_id">6</SimpleData>
+<SimpleData name="link_length_in_mile"> 0.10</SimpleData>
+<SimpleData name="number_of_lanes">3</SimpleData>
+<SimpleData name="speed_limit_mph">35.00</SimpleData>
+<SimpleData name="capacity_per_lane_per_hour">900.00</SimpleData>
+<SimpleData name="capacity_per_link_per_hour">2700.00</SimpleData>
+<SimpleData name="free_flow_travel_time_(min)"> 0.17</SimpleData>
+</SchemaData></ExtendedData>
+<LineString><coordinates>49.898888,24.898604,7 49.996881,24.897573,7</coordinates></LineString>
+</Placemark>
+<Placemark id="Link7">
+<name>Link </name>
+<ExtendedData><SchemaData schemaUrl="#link">
+<SimpleData name="from_node_id">2</SimpleData>
+<SimpleData name="to_node_id">5</SimpleData>
+<SimpleData name="link_id">7</SimpleData>
+<SimpleData name="link_length_in_mile"> 0.10</SimpleData>
+<SimpleData name="number_of_lanes">3</SimpleData>
+<SimpleData name="speed_limit_mph">35.00</SimpleData>
+<SimpleData name="capacity_per_lane_per_hour">900.00</SimpleData>
+<SimpleData name="capacity_per_link_per_hour">2700.00</SimpleData>
+<SimpleData name="free_flow_travel_time_(min)"> 0.16</SimpleData>
+</SchemaData></ExtendedData>
+<LineString><coordinates>49.901702,24.996003,7 49.896544,24.901105,7</coordinates></LineString>
+</Placemark>
+<Placemark id="Link8">
+<name>Link </name>
+<ExtendedData><SchemaData schemaUrl="#link">
+<SimpleData name="from_node_id">5</SimpleData>
+<SimpleData name="to_node_id">2</SimpleData>
+<SimpleData name="link_id">8</SimpleData>
+<SimpleData name="link_length_in_mile"> 0.10</SimpleData>
+<SimpleData name="number_of_lanes">3</SimpleData>
+<SimpleData name="speed_limit_mph">35.00</SimpleData>
+<SimpleData name="capacity_per_lane_per_hour">900.00</SimpleData>
+<SimpleData name="capacity_per_link_per_hour">2700.00</SimpleData>
+<SimpleData name="free_flow_travel_time_(min)"> 0.16</SimpleData>
+</SchemaData></ExtendedData>
+<LineString><coordinates>49.901282,24.900847,7 49.906440,24.995745,7</coordinates></LineString>
+</Placemark>
+</Folder>
+<Folder><name>Zone Layer</name> 
+<Placemark id="Zone_1">
+		<name>Zone 1</name>
+		<visibility>0</visibility>
+		<styleUrl>#yellow</styleUrl>
+		<Polygon>
+		<extrude>1</extrude>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<outerBoundaryIs>
+		<LinearRing>
+		<coordinates>
+			49.872782,24.839774,1200.000000
+			49.931921,24.837023,1200.000000
+			49.950488,24.788199,1200.000000
+			49.841837,24.773071,1200.000000
+			49.876220,24.838399,1200.000000
+			49.872782,24.839774,1200.000000
+		</coordinates>
+		</LinearRing>
+		</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+<Placemark id="Zone_2">
+		<name>Zone 2</name>
+		<visibility>0</visibility>
+		<styleUrl>#yellow</styleUrl>
+		<Polygon>
+		<extrude>1</extrude>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<outerBoundaryIs>
+		<LinearRing>
+		<coordinates>
+			49.870719,25.044698,1200.000000
+			49.947050,25.035759,1200.000000
+			49.953239,24.959428,1200.000000
+			49.865218,24.968367,1200.000000
+			49.865218,24.968367,1200.000000
+			49.870719,25.044698,1200.000000
+		</coordinates>
+		</LinearRing>
+		</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+<Placemark id="Zone_3">
+		<name>Zone 3</name>
+		<visibility>0</visibility>
+		<styleUrl>#yellow</styleUrl>
+		<Polygon>
+		<extrude>1</extrude>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<outerBoundaryIs>
+		<LinearRing>
+		<coordinates>
+			49.767569,24.957365,1200.000000
+			49.834960,24.934672,1200.000000
+			49.835648,24.878971,1200.000000
+			49.735249,24.874157,1200.000000
+			49.771695,24.960803,1200.000000
+			49.767569,24.957365,1200.000000
+		</coordinates>
+		</LinearRing>
+		</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+<Placemark id="Zone_4">
+		<name>Zone 4</name>
+		<visibility>0</visibility>
+		<styleUrl>#yellow</styleUrl>
+		<Polygon>
+		<extrude>1</extrude>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<outerBoundaryIs>
+		<LinearRing>
+		<coordinates>
+			49.964929,24.947737,1200.000000
+			50.050200,24.949113,1200.000000
+			50.058452,24.852152,1200.000000
+			49.953926,24.854215,1200.000000
+			49.965617,24.944987,1200.000000
+			49.964929,24.947737,1200.000000
+		</coordinates>
+		</LinearRing>
+		</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Folder>
+<Folder><name>Work Zone Layer</name> 
+</Folder>
+<Folder><name>Variable Message Sign</name> 
+</Folder>
+<Folder><name>Traffic Detector</name> 
+</Folder>
+<Folder><name>Node Bottleneck</name> 
+<Placemark id="Bottleneck 5 ">
+<name>Bottleneck 5 </name><description><![CDATA[<img src='http://chart.apis.google.com/chart?cht=p&amp;chd=t:<description><![CDATA[<img src='http://chart.apis.google.com/chart?cht=p3&amp;chd=t:0.167239,0.682084,0.000000,0.000000&amp;chs=500x150&amp;chf=bg,s,ffffff00&amp;chco=FF7800&amp;chl=:%200.2(hr)%7C:%200.7(hr)%7C:%200.0(hr)%7C:%200.0(hr)'>]]></description><LookAt><longitude>49.898913</longitude>
+<latitude>24.900976</latitude>
+<altitude>0</altitude>
+<range>3200000</range>
+<tilt>0</tilt>			<heading>0</heading>		</LookAt>		<Style>			<IconStyle>				<scale>2.17107</scale>				<Icon><href>http://chart.apis.google.com/chart?cht=p&amp;chd=t:0.167239,0.682084,0.000000,0.000000&amp;chs=200x200&amp;chf=bg,s,ffffff00&amp;chco=FF7800</href>				</Icon>			</IconStyle>			</Style>		<Point>
+<coordinates>49.898913,24.900976,0</coordinates>
+</Point>
+</Placemark></Folder>
+<Folder>
+<name>Link MOE Layer</name>
+ <visibility>0</visibility>
+<Placemark id="Link3DVolume1">
+		<name></name>
+		<visibility>0</visibility>
+		<styleUrl>#color1</styleUrl>
+		<Polygon>
+		<extrude>1</extrude>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<outerBoundaryIs>
+		<LinearRing>
+		<coordinates>
+			49.901285,24.806079,120.000000
+			49.901285,24.900976,120.000000
+			49.902115,24.900976,120.000000
+			49.902115,24.806079,120.000000
+			49.901285,24.806079,120.000000
+		</coordinates>
+		</LinearRing>
+		</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+<Placemark id="Link3DVolume2">
+		<name></name>
+		<visibility>0</visibility>
+		<styleUrl>#color1</styleUrl>
+		<Polygon>
+		<extrude>1</extrude>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<outerBoundaryIs>
+		<LinearRing>
+		<coordinates>
+			49.896541,24.900976,120.000000
+			49.896541,24.806079,120.000000
+			49.895711,24.806079,120.000000
+			49.895711,24.900976,120.000000
+			49.896541,24.900976,120.000000
+		</coordinates>
+		</LinearRing>
+		</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+<Placemark id="Link3DVolume3">
+		<name></name>
+		<visibility>0</visibility>
+		<styleUrl>#color6</styleUrl>
+		<Polygon>
+		<extrude>1</extrude>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<outerBoundaryIs>
+		<LinearRing>
+		<coordinates>
+			49.796771,24.899636,120.000000
+			49.898889,24.898604,120.000000
+			49.898881,24.897774,120.000000
+			49.796763,24.898806,120.000000
+			49.796771,24.899636,120.000000
+		</coordinates>
+		</LinearRing>
+		</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+<Placemark id="Link3DVolume4">
+		<name></name>
+		<visibility>0</visibility>
+		<styleUrl>#color1</styleUrl>
+		<Polygon>
+		<extrude>1</extrude>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<outerBoundaryIs>
+		<LinearRing>
+		<coordinates>
+			49.898937,24.903348,120.000000
+			49.796819,24.904380,120.000000
+			49.796827,24.905210,120.000000
+			49.898945,24.904178,120.000000
+			49.898937,24.903348,120.000000
+		</coordinates>
+		</LinearRing>
+		</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+<Placemark id="Link3DVolume5">
+		<name></name>
+		<visibility>0</visibility>
+		<styleUrl>#color1</styleUrl>
+		<Polygon>
+		<extrude>1</extrude>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<outerBoundaryIs>
+		<LinearRing>
+		<coordinates>
+			49.996931,24.902317,120.000000
+			49.898938,24.903348,120.000000
+			49.898947,24.904178,120.000000
+			49.996940,24.903147,120.000000
+			49.996931,24.902317,120.000000
+		</coordinates>
+		</LinearRing>
+		</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+<Placemark id="Link3DVolume6">
+		<name></name>
+		<visibility>0</visibility>
+		<styleUrl>#color3</styleUrl>
+		<Polygon>
+		<extrude>1</extrude>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<outerBoundaryIs>
+		<LinearRing>
+		<coordinates>
+			49.898888,24.898604,120.000000
+			49.996881,24.897573,120.000000
+			49.996872,24.896743,120.000000
+			49.898879,24.897774,120.000000
+			49.898888,24.898604,120.000000
+		</coordinates>
+		</LinearRing>
+		</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+<Placemark id="Link3DVolume7">
+		<name></name>
+		<visibility>0</visibility>
+		<styleUrl>#color1</styleUrl>
+		<Polygon>
+		<extrude>1</extrude>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<outerBoundaryIs>
+		<LinearRing>
+		<coordinates>
+			49.901702,24.996003,120.000000
+			49.896544,24.901105,120.000000
+			49.895716,24.901150,120.000000
+			49.900874,24.996048,120.000000
+			49.901702,24.996003,120.000000
+		</coordinates>
+		</LinearRing>
+		</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+<Placemark id="Link3DVolume8">
+		<name></name>
+		<visibility>0</visibility>
+		<styleUrl>#color2</styleUrl>
+		<Polygon>
+		<extrude>1</extrude>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<outerBoundaryIs>
+		<LinearRing>
+		<coordinates>
+			49.901282,24.900847,120.000000
+			49.906440,24.995745,120.000000
+			49.907268,24.995700,120.000000
+			49.902110,24.900802,120.000000
+			49.901282,24.900847,120.000000
+		</coordinates>
+		</LinearRing>
+		</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+<ScreenOverlay>
+<name>Speed Legend Logo</name>
+<drawOrder>20000001</drawOrder>
+ <Icon>
+<href>legend_link_speed.png</href>
+ </Icon>
+<overlayXY x="1.0" y="0.0" xunits="fraction" yunits="fraction"/>
+<screenXY x="0.2" y="0.05" xunits="fraction" yunits="fraction"/>
+ </ScreenOverlay>
+</Folder>
+<Folder>
+<name>Impacted Volume Layer</name>
+ <visibility>0</visibility>
+<Placemark id="ImpactedVolume1">
+		<name>L</name>
+		<visibility>0</visibility>
+		<styleUrl>#red</styleUrl>
+		<Polygon>
+		<extrude>1</extrude>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<outerBoundaryIs>
+		<LinearRing>
+		<coordinates>
+			49.901285,24.806079,0.000000
+			49.901285,24.900976,0.000000
+			49.902115,24.900976,0.000000
+			49.902115,24.806079,0.000000
+			49.901285,24.806079,0.000000
+		</coordinates>
+		</LinearRing>
+		</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+<Placemark id="ImpactedVolume2">
+		<name>L</name>
+		<visibility>0</visibility>
+		<styleUrl>#red</styleUrl>
+		<Polygon>
+		<extrude>1</extrude>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<outerBoundaryIs>
+		<LinearRing>
+		<coordinates>
+			49.896541,24.900976,0.000000
+			49.896541,24.806079,0.000000
+			49.895711,24.806079,0.000000
+			49.895711,24.900976,0.000000
+			49.896541,24.900976,0.000000
+		</coordinates>
+		</LinearRing>
+		</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+<Placemark id="ImpactedVolume3">
+		<name>L</name>
+		<visibility>0</visibility>
+		<styleUrl>#red</styleUrl>
+		<Polygon>
+		<extrude>1</extrude>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<outerBoundaryIs>
+		<LinearRing>
+		<coordinates>
+			49.796771,24.899636,0.000000
+			49.898889,24.898604,0.000000
+			49.898881,24.897774,0.000000
+			49.796763,24.898806,0.000000
+			49.796771,24.899636,0.000000
+		</coordinates>
+		</LinearRing>
+		</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+<Placemark id="ImpactedVolume4">
+		<name>L</name>
+		<visibility>0</visibility>
+		<styleUrl>#red</styleUrl>
+		<Polygon>
+		<extrude>1</extrude>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<outerBoundaryIs>
+		<LinearRing>
+		<coordinates>
+			49.898937,24.903348,0.000000
+			49.796819,24.904380,0.000000
+			49.796827,24.905210,0.000000
+			49.898945,24.904178,0.000000
+			49.898937,24.903348,0.000000
+		</coordinates>
+		</LinearRing>
+		</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+<Placemark id="ImpactedVolume5">
+		<name>L</name>
+		<visibility>0</visibility>
+		<styleUrl>#red</styleUrl>
+		<Polygon>
+		<extrude>1</extrude>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<outerBoundaryIs>
+		<LinearRing>
+		<coordinates>
+			49.996931,24.902317,0.000000
+			49.898938,24.903348,0.000000
+			49.898947,24.904178,0.000000
+			49.996940,24.903147,0.000000
+			49.996931,24.902317,0.000000
+		</coordinates>
+		</LinearRing>
+		</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+<Placemark id="ImpactedVolume6">
+		<name>L</name>
+		<visibility>0</visibility>
+		<styleUrl>#red</styleUrl>
+		<Polygon>
+		<extrude>1</extrude>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<outerBoundaryIs>
+		<LinearRing>
+		<coordinates>
+			49.898888,24.898604,0.000000
+			49.996881,24.897573,0.000000
+			49.996872,24.896743,0.000000
+			49.898879,24.897774,0.000000
+			49.898888,24.898604,0.000000
+		</coordinates>
+		</LinearRing>
+		</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+<Placemark id="ImpactedVolume7">
+		<name>L</name>
+		<visibility>0</visibility>
+		<styleUrl>#red</styleUrl>
+		<Polygon>
+		<extrude>1</extrude>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<outerBoundaryIs>
+		<LinearRing>
+		<coordinates>
+			49.901702,24.996003,0.000000
+			49.896544,24.901105,0.000000
+			49.895716,24.901150,0.000000
+			49.900874,24.996048,0.000000
+			49.901702,24.996003,0.000000
+		</coordinates>
+		</LinearRing>
+		</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+<Placemark id="ImpactedVolume8">
+		<name>L</name>
+		<visibility>0</visibility>
+		<styleUrl>#red</styleUrl>
+		<Polygon>
+		<extrude>1</extrude>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<outerBoundaryIs>
+		<LinearRing>
+		<coordinates>
+			49.901282,24.900847,0.000000
+			49.906440,24.995745,0.000000
+			49.907268,24.995700,0.000000
+			49.902110,24.900802,0.000000
+			49.901282,24.900847,0.000000
+		</coordinates>
+		</LinearRing>
+		</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Folder>
+<Folder><name>Summary</name> 
+		<visibility>1</visibility>
+<ScreenOverlay>
+<name>Logo</name>
+<drawOrder>20000000</drawOrder>
+ <Icon>
+<href>Logo.png</href>
+ </Icon>
+<overlayXY x="1.0" y="0.0" xunits="fraction" yunits="fraction"/>
+<screenXY x="0.8" y="0.05" xunits="fraction" yunits="fraction"/>
+ </ScreenOverlay>
+</Folder>
+</Document>
+</kml>
