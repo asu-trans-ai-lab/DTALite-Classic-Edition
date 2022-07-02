@@ -1,5 +1,9 @@
 # DTALite-Classic-Edition
-DTALite-Classic-Edition (before adopting GMNS standard QVDF functions in 2020)
+DTALite-Classic-Edition (This version uses input_node, and input_link format before adopting GMNS standard QVDF functions in 2020)
+
+The stable version using GMNS file format can be found at https://github.com/asu-trans-ai-lab/DTALite
+
+The active development version using a multi-resolution modeling framework can be found at https://github.com/asu-trans-ai-lab/DLSim-MRM. 
 
 # DTALite
 
