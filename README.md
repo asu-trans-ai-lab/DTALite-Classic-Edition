@@ -1,9 +1,13 @@
-# DTALite-Classic-Edition
-DTALite-Classic-Edition (This version uses input_node, and input_link format before adopting GMNS standard QVDF functions in 2020)
+# ![Graphical user interface, application Description automatically generated](media/be7edc91dd4164d28fc785cf4c58cade.png)DTALite-Classic-Edition
 
-The stable version using GMNS file format can be found at https://github.com/asu-trans-ai-lab/DTALite
+DTALite-Classic-Edition (This version uses input_node, and input_link format
+before adopting GMNS standard QVDF functions in 2020)
 
-The active development version using a multi-resolution modeling framework can be found at https://github.com/asu-trans-ai-lab/DLSim-MRM. 
+The stable version using GMNS file format can be found at
+https://github.com/asu-trans-ai-lab/DTALite
+
+The active development version using a multi-resolution modeling framework can
+be found at https://github.com/asu-trans-ai-lab/DLSim-MRM.
 
 # DTALite
 
@@ -32,10 +36,9 @@ Remarks:
 
 ## Step 1: White Paper and Application:
 
-Zhou, Xuesong, and Jeffrey Taylor. "[DTALite: A queue-based mesoscopic traffic
-simulator for fast model evaluation and
-calibration.](https://www.tandfonline.com/doi/full/10.1080/23311916.2014.961345)"
-Cogent Engineering 1.1 (2014): 961345.
+Zhou, Xuesong, and Jeffrey Taylor. "DTALite: A queue-based mesoscopic traffic
+simulator for fast model evaluation and calibration." Cogent Engineering 1.1
+(2014): 961345.
 
 Marshall, Norman L. "[Forecasting the impossible: The status quo of estimating
 traffic flows with static traffic assignment and the future of dynamic traffic
@@ -102,4 +105,3 @@ System, Maryland State Highway Administration
 **8. Workzone applications**: Schroeder, B, et al. Work zone traffic analysis &
 impact assessment. (2014) FHWA/NC/2012-36. North Carolina. Dept. of
 Transportation. Research and Analysis Group.
-
